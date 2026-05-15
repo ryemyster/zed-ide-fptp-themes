@@ -6,7 +6,9 @@
     "foreground": "#EEF3F7",
     "cursor": "#7DDDE6",
     "selection": "#70D1DB42",
-    "line_highlight": "#1D2835"
+    "line_highlight": "#1D2835",
+    "line_number": "#8F9CA9",
+    "line_number_active": "#70D1DB"
   },
   "syntax": {
     "class": {

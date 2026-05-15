@@ -130,7 +130,6 @@ const results = {
   success: 0,
   failed: 0,
   errors: [],
-  themes: [],
 };
 
 files.forEach((file) => {
@@ -139,7 +138,12 @@ files.forEach((file) => {
     const vscodeTheme = JSON.parse(fs.readFileSync(filepath, "utf8"));
 
     const zedTheme = convertTheme(vscodeTheme, file);
-    results.themes.push(zedTheme);
+
+    // Generate output filename
+    const baseName = file.replace("-color-theme.json", "");
+    const outputFile = path.join(OUTPUT_DIR, `${baseName}.json`);
+
+    fs.writeFileSync(outputFile, JSON.stringify(zedTheme, null, 2));
     results.success++;
     console.log(`✓ Converted: ${file}`);
   } catch (error) {
@@ -149,21 +153,9 @@ files.forEach((file) => {
   }
 });
 
-// Create Theme Family wrapper with all themes
-const themeFamily = {
-  name: "Pixels to Punk",
-  author: "Ryan McDonald",
-  themes: results.themes,
-};
-
-// Write single output file
-const outputFile = path.join(OUTPUT_DIR, "pixels-to-punk.json");
-fs.writeFileSync(outputFile, JSON.stringify(themeFamily, null, 2));
-
 console.log("\n--- Conversion Summary ---");
 console.log(`✓ Success: ${results.success}`);
 console.log(`✗ Failed: ${results.failed}`);
-console.log(`\n📦 Theme Family: ${outputFile}`);
 
 if (results.errors.length > 0) {
   console.log("\nErrors:");
