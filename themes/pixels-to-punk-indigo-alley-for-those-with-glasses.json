@@ -1,67 +1,37 @@
 {
-  "name": "Pixels to Punk Indigo Alley for Those with Glasses",
-  "appearance": "dark",
-  "colors": {
-    "background": "#151925",
-    "foreground": "#E6EAF3",
-    "cursor": "#82D4DE",
-    "selection": "#74C8D53D",
-    "line_highlight": "#20283B",
-    "line_number": "#8A94A8",
-    "line_number_active": "#74C8D5"
-  },
-  "syntax": {
-    "class": {
-      "color": "#AAA1DF",
-      "weight": "normal"
-    },
-    "enum": {
-      "color": "#AAA1DF",
-      "weight": "normal"
-    },
-    "function": {
-      "color": "#74C8D5",
-      "weight": "normal"
-    },
-    "interface": {
-      "color": "#AAA1DF",
-      "weight": "normal"
-    },
-    "keyword": {
-      "color": "#CF86B7",
-      "weight": "normal"
-    },
-    "method": {
-      "color": "#74C8D5",
-      "weight": "normal"
-    },
-    "namespace": {
-      "color": "#AAA1DF",
-      "weight": "normal"
-    },
-    "number": {
-      "color": "#D8BA77",
-      "weight": "normal"
-    },
-    "parameter": {
-      "color": "#D0A17A",
-      "weight": "normal"
-    },
-    "property": {
-      "color": "#8DB5E6",
-      "weight": "normal"
-    },
-    "string": {
-      "color": "#8BCB9B",
-      "weight": "normal"
-    },
-    "type": {
-      "color": "#AAA1DF",
-      "weight": "normal"
-    },
-    "variable": {
-      "color": "#E6EAF3",
-      "weight": "normal"
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk Indigo Alley for Those with Glasses",
+      "appearance": "dark",
+      "style": {
+        "background": "#151925",
+        "foreground": "#E6EAF3",
+        "cursor": "#82D4DE",
+        "selection": "#74C8D53D",
+        "line_highlight": "#20283B",
+        "line_number": "#8A94A8",
+        "line_number_active": "#74C8D5",
+        "find_match": "#D8BA7750",
+        "error": "#EA7D8E",
+        "warning": "#D8BA77",
+        "info": "#74C8D5",
+        "class": "#AAA1DF",
+        "enum": "#AAA1DF",
+        "function": "#74C8D5",
+        "interface": "#AAA1DF",
+        "keyword": "#CF86B7",
+        "method": "#74C8D5",
+        "namespace": "#AAA1DF",
+        "number": "#D8BA77",
+        "parameter": "#D0A17A",
+        "property": "#8DB5E6",
+        "string": "#8BCB9B",
+        "type": "#AAA1DF",
+        "variable": "#E6EAF3"
+      }
     }
-  }
+  ]
 }

@@ -1,67 +1,37 @@
 {
-  "name": "Pixels to Punk Anime Whiteboard",
-  "appearance": "light",
-  "colors": {
-    "background": "#F9FBFF",
-    "foreground": "#1B2230",
-    "cursor": "#006A86",
-    "selection": "#006A8630",
-    "line_highlight": "#EDF4FF",
-    "line_number": "#667286",
-    "line_number_active": "#006A86"
-  },
-  "syntax": {
-    "class": {
-      "color": "#5750A6",
-      "weight": "normal"
-    },
-    "enum": {
-      "color": "#5750A6",
-      "weight": "normal"
-    },
-    "function": {
-      "color": "#006A86",
-      "weight": "normal"
-    },
-    "interface": {
-      "color": "#5750A6",
-      "weight": "normal"
-    },
-    "keyword": {
-      "color": "#A1267B",
-      "weight": "normal"
-    },
-    "method": {
-      "color": "#006A86",
-      "weight": "normal"
-    },
-    "namespace": {
-      "color": "#5750A6",
-      "weight": "normal"
-    },
-    "number": {
-      "color": "#785D00",
-      "weight": "normal"
-    },
-    "parameter": {
-      "color": "#8A5032",
-      "weight": "normal"
-    },
-    "property": {
-      "color": "#2D609E",
-      "weight": "normal"
-    },
-    "string": {
-      "color": "#974234",
-      "weight": "normal"
-    },
-    "type": {
-      "color": "#5750A6",
-      "weight": "normal"
-    },
-    "variable": {
-      "color": "#1B2230",
-      "weight": "normal"
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk Anime Whiteboard",
+      "appearance": "light",
+      "style": {
+        "background": "#F9FBFF",
+        "foreground": "#1B2230",
+        "cursor": "#006A86",
+        "selection": "#006A8630",
+        "line_highlight": "#EDF4FF",
+        "line_number": "#667286",
+        "line_number_active": "#006A86",
+        "find_match": "#D4B75A66",
+        "error": "#B2304D",
+        "warning": "#785D00",
+        "info": "#006A86",
+        "class": "#5750A6",
+        "enum": "#5750A6",
+        "function": "#006A86",
+        "interface": "#5750A6",
+        "keyword": "#A1267B",
+        "method": "#006A86",
+        "namespace": "#5750A6",
+        "number": "#785D00",
+        "parameter": "#8A5032",
+        "property": "#2D609E",
+        "string": "#974234",
+        "type": "#5750A6",
+        "variable": "#1B2230"
+      }
     }
-  }
+  ]
 }

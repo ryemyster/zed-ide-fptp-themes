@@ -1,13 +1,9 @@
-schema_version = 0
+schema_version = 1
 id = "fptp-themes"
 name = "Pixels to Punk Themes"
 description = "50 vibrant cyberpunk and anime-inspired color themes"
 version = "1.0.0"
 repository = "https://github.com/ryemyster/zed-themes"
 authors = ["Ryan McDonald"]
-category = "theme"
-
-[provides]
-themes = ["Pixels to Punk Afterparty Aquarium", "Pixels to Punk Akihabara Game Dev Midnight", "Pixels to Punk Anime Whiteboard", "Pixels to Punk Arcade Raincoat", "Pixels to Punk Basement Flyer", "Pixels to Punk Blacklight Slushie", "Pixels to Punk Bubblegum Bruise", "Pixels to Punk Candy Static", "Pixels to Punk Cherry CRT", "Pixels to Punk City Pop Clarity", "Pixels to Punk CRT After Midnight", "Pixels to Punk Cyber Dark", "Pixels to Punk Cyber Dark For Those With Glasses", "Pixels to Punk Cyber Light", "Pixels to Punk Cyber Light For Those With Glasses", "Pixels to Punk Electric Sticker Sheet", "Pixels to Punk Electric Sticker Sheet High Contrast", "Pixels to Punk Hagane Night Shift", "Pixels to Punk Harajuku Product Pop", "Pixels to Punk Indigo Alley For Those With Glasses", "Pixels to Punk Kyoto Night Train For Those With Glasses", "Pixels to Punk Kyoto Paper Lantern For Those With Glasses", "Pixels to Punk Laser Lemonade", "Pixels to Punk Mall Goth Daydream", "Pixels to Punk Matcha Notebook For Those With Glasses", "Pixels to Punk Midnight Matsuri", "Pixels to Punk Moonlit Tatami For Those With Glasses", "Pixels to Punk Neon Backstage", "Pixels to Punk Onsen Twilight For Those With Glasses", "Pixels to Punk Original", "Pixels to Punk Original Dark For Those With Glasses", "Pixels to Punk Original High Contrast", "Pixels to Punk Original Light For Those With Glasses", "Pixels to Punk Photocopy Riot", "Pixels to Punk Punk Pool Party", "Pixels to Punk Rainy Arcade", "Pixels to Punk Riot Glow Dark", "Pixels to Punk Riot Glow Light", "Pixels to Punk Sakura Overcast For Those With Glasses", "Pixels to Punk Sakura Sprint", "Pixels to Punk Shibuya Sticker Day", "Pixels to Punk Shinjuku Neon Review", "Pixels to Punk Soft Focus Day", "Pixels to Punk Soft Focus Night", "Pixels to Punk Sticker Bomb Sunset", "Pixels to Punk Streetlight Noir", "Pixels to Punk Tokyo Fog Cutter", "Pixels to Punk Toxic Valentine", "Pixels to Punk Washi Desk For Those With Glasses", "Pixels to Punk Zine Shop Window"]
 
 [dependencies]

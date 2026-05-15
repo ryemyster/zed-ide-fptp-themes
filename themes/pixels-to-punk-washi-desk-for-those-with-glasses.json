@@ -1,67 +1,37 @@
 {
-  "name": "Pixels to Punk Washi Desk for Those with Glasses",
-  "appearance": "dark",
-  "colors": {
-    "background": "#EEF4F4",
-    "foreground": "#1E2A32",
-    "cursor": "#006C80",
-    "selection": "#006C802E",
-    "line_highlight": "#E4EEEE",
-    "line_number": "#5D6D76",
-    "line_number_active": "#006C80"
-  },
-  "syntax": {
-    "class": {
-      "color": "#4F5B9A",
-      "weight": "normal"
-    },
-    "enum": {
-      "color": "#4F5B9A",
-      "weight": "normal"
-    },
-    "function": {
-      "color": "#006C80",
-      "weight": "normal"
-    },
-    "interface": {
-      "color": "#4F5B9A",
-      "weight": "normal"
-    },
-    "keyword": {
-      "color": "#8B3C72",
-      "weight": "normal"
-    },
-    "method": {
-      "color": "#006C80",
-      "weight": "normal"
-    },
-    "namespace": {
-      "color": "#4F5B9A",
-      "weight": "normal"
-    },
-    "number": {
-      "color": "#745D18",
-      "weight": "normal"
-    },
-    "parameter": {
-      "color": "#765947",
-      "weight": "normal"
-    },
-    "property": {
-      "color": "#2C6290",
-      "weight": "normal"
-    },
-    "string": {
-      "color": "#2F704F",
-      "weight": "normal"
-    },
-    "type": {
-      "color": "#4F5B9A",
-      "weight": "normal"
-    },
-    "variable": {
-      "color": "#1E2A32",
-      "weight": "normal"
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk Washi Desk for Those with Glasses",
+      "appearance": "dark",
+      "style": {
+        "background": "#EEF4F4",
+        "foreground": "#1E2A32",
+        "cursor": "#006C80",
+        "selection": "#006C802E",
+        "line_highlight": "#E4EEEE",
+        "line_number": "#5D6D76",
+        "line_number_active": "#006C80",
+        "find_match": "#CDB4695C",
+        "error": "#A63A4C",
+        "warning": "#745D18",
+        "info": "#006C80",
+        "class": "#4F5B9A",
+        "enum": "#4F5B9A",
+        "function": "#006C80",
+        "interface": "#4F5B9A",
+        "keyword": "#8B3C72",
+        "method": "#006C80",
+        "namespace": "#4F5B9A",
+        "number": "#745D18",
+        "parameter": "#765947",
+        "property": "#2C6290",
+        "string": "#2F704F",
+        "type": "#4F5B9A",
+        "variable": "#1E2A32"
+      }
     }
-  }
+  ]
 }

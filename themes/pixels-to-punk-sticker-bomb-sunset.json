@@ -1,67 +1,37 @@
 {
-  "name": "Pixels to Punk Sticker Bomb Sunset",
-  "appearance": "dark",
-  "colors": {
-    "background": "#18111F",
-    "foreground": "#FFF3F8",
-    "cursor": "#39E6C6",
-    "selection": "#FF4FA344",
-    "line_highlight": "#24182F",
-    "line_number": "#8E7898",
-    "line_number_active": "#FFB84D"
-  },
-  "syntax": {
-    "class": {
-      "color": "#A881FF",
-      "weight": "normal"
-    },
-    "enum": {
-      "color": "#A881FF",
-      "weight": "normal"
-    },
-    "function": {
-      "color": "#39E6C6",
-      "weight": "normal"
-    },
-    "interface": {
-      "color": "#A881FF",
-      "weight": "normal"
-    },
-    "keyword": {
-      "color": "#FF4FA3",
-      "weight": "normal"
-    },
-    "method": {
-      "color": "#39E6C6",
-      "weight": "normal"
-    },
-    "namespace": {
-      "color": "#A881FF",
-      "weight": "normal"
-    },
-    "number": {
-      "color": "#FFB84D",
-      "weight": "normal"
-    },
-    "parameter": {
-      "color": "#FF8D5C",
-      "weight": "normal"
-    },
-    "property": {
-      "color": "#67B7FF",
-      "weight": "normal"
-    },
-    "string": {
-      "color": "#FF8D5C",
-      "weight": "normal"
-    },
-    "type": {
-      "color": "#A881FF",
-      "weight": "normal"
-    },
-    "variable": {
-      "color": "#FFF3F8",
-      "weight": "normal"
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk Sticker Bomb Sunset",
+      "appearance": "dark",
+      "style": {
+        "background": "#18111F",
+        "foreground": "#FFF3F8",
+        "cursor": "#39E6C6",
+        "selection": "#FF4FA344",
+        "line_highlight": "#24182F",
+        "line_number": "#8E7898",
+        "line_number_active": "#FFB84D",
+        "find_match": "#FFB84D55",
+        "error": "#FF5C70",
+        "warning": "#FFB84D",
+        "info": "#39E6C6",
+        "class": "#A881FF",
+        "enum": "#A881FF",
+        "function": "#39E6C6",
+        "interface": "#A881FF",
+        "keyword": "#FF4FA3",
+        "method": "#39E6C6",
+        "namespace": "#A881FF",
+        "number": "#FFB84D",
+        "parameter": "#FF8D5C",
+        "property": "#67B7FF",
+        "string": "#FF8D5C",
+        "type": "#A881FF",
+        "variable": "#FFF3F8"
+      }
     }
-  }
+  ]
 }

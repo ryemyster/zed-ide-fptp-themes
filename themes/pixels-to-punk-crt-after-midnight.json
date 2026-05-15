@@ -1,67 +1,37 @@
 {
-  "name": "Pixels to Punk CRT After Midnight",
-  "appearance": "dark",
-  "colors": {
-    "background": "#061316",
-    "foreground": "#D7FFF4",
-    "cursor": "#7DFF89",
-    "selection": "#1E8A8066",
-    "line_highlight": "#0E2227",
-    "line_number": "#577A76",
-    "line_number_active": "#7DFF89"
-  },
-  "syntax": {
-    "class": {
-      "color": "#55A6FF",
-      "weight": "normal"
-    },
-    "enum": {
-      "color": "#55A6FF",
-      "weight": "normal"
-    },
-    "function": {
-      "color": "#41E6D1",
-      "weight": "normal"
-    },
-    "interface": {
-      "color": "#55A6FF",
-      "weight": "normal"
-    },
-    "keyword": {
-      "color": "#F05BC3",
-      "weight": "normal"
-    },
-    "method": {
-      "color": "#41E6D1",
-      "weight": "normal"
-    },
-    "namespace": {
-      "color": "#55A6FF",
-      "weight": "normal"
-    },
-    "number": {
-      "color": "#FFB84D",
-      "weight": "normal"
-    },
-    "parameter": {
-      "color": "#FFCC7A",
-      "weight": "normal"
-    },
-    "property": {
-      "color": "#A2F970",
-      "weight": "normal"
-    },
-    "string": {
-      "color": "#7DFF89",
-      "weight": "normal"
-    },
-    "type": {
-      "color": "#55A6FF",
-      "weight": "normal"
-    },
-    "variable": {
-      "color": "#D7FFF4",
-      "weight": "normal"
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk CRT After Midnight",
+      "appearance": "dark",
+      "style": {
+        "background": "#061316",
+        "foreground": "#D7FFF4",
+        "cursor": "#7DFF89",
+        "selection": "#1E8A8066",
+        "line_highlight": "#0E2227",
+        "line_number": "#577A76",
+        "line_number_active": "#7DFF89",
+        "find_match": "#FFB84D55",
+        "error": "#FF5368",
+        "warning": "#FFB84D",
+        "info": "#41E6D1",
+        "class": "#55A6FF",
+        "enum": "#55A6FF",
+        "function": "#41E6D1",
+        "interface": "#55A6FF",
+        "keyword": "#F05BC3",
+        "method": "#41E6D1",
+        "namespace": "#55A6FF",
+        "number": "#FFB84D",
+        "parameter": "#FFCC7A",
+        "property": "#A2F970",
+        "string": "#7DFF89",
+        "type": "#55A6FF",
+        "variable": "#D7FFF4"
+      }
     }
-  }
+  ]
 }

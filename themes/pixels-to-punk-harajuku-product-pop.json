@@ -1,67 +1,37 @@
 {
-  "name": "Pixels to Punk Harajuku Product Pop",
-  "appearance": "dark",
-  "colors": {
-    "background": "#FFF8EC",
-    "foreground": "#202532",
-    "cursor": "#006B75",
-    "selection": "#006B7530",
-    "line_highlight": "#F3E8D8",
-    "line_number": "#6A7080",
-    "line_number_active": "#006B75"
-  },
-  "syntax": {
-    "class": {
-      "color": "#5B4EA0",
-      "weight": "normal"
-    },
-    "enum": {
-      "color": "#5B4EA0",
-      "weight": "normal"
-    },
-    "function": {
-      "color": "#006B75",
-      "weight": "normal"
-    },
-    "interface": {
-      "color": "#5B4EA0",
-      "weight": "normal"
-    },
-    "keyword": {
-      "color": "#9B2E72",
-      "weight": "normal"
-    },
-    "method": {
-      "color": "#006B75",
-      "weight": "normal"
-    },
-    "namespace": {
-      "color": "#5B4EA0",
-      "weight": "normal"
-    },
-    "number": {
-      "color": "#805900",
-      "weight": "normal"
-    },
-    "parameter": {
-      "color": "#8C4F29",
-      "weight": "normal"
-    },
-    "property": {
-      "color": "#2E5E9A",
-      "weight": "normal"
-    },
-    "string": {
-      "color": "#A33D45",
-      "weight": "normal"
-    },
-    "type": {
-      "color": "#5B4EA0",
-      "weight": "normal"
-    },
-    "variable": {
-      "color": "#202532",
-      "weight": "normal"
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk Harajuku Product Pop",
+      "appearance": "dark",
+      "style": {
+        "background": "#FFF8EC",
+        "foreground": "#202532",
+        "cursor": "#006B75",
+        "selection": "#006B7530",
+        "line_highlight": "#F3E8D8",
+        "line_number": "#6A7080",
+        "line_number_active": "#006B75",
+        "find_match": "#D7A64F66",
+        "error": "#B3324C",
+        "warning": "#805900",
+        "info": "#006B75",
+        "class": "#5B4EA0",
+        "enum": "#5B4EA0",
+        "function": "#006B75",
+        "interface": "#5B4EA0",
+        "keyword": "#9B2E72",
+        "method": "#006B75",
+        "namespace": "#5B4EA0",
+        "number": "#805900",
+        "parameter": "#8C4F29",
+        "property": "#2E5E9A",
+        "string": "#A33D45",
+        "type": "#5B4EA0",
+        "variable": "#202532"
+      }
     }
-  }
+  ]
 }
