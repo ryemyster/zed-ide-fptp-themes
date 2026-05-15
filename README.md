@@ -21,7 +21,9 @@ You'll find themes named things like "Cyber Dark," "Sakura Sprint," "Arcade Rain
 ### The Easy Way (Recommended)
 
 1. Open **Zed** (the code editor)
-2. Press **Cmd + ,** (that's Command key + comma)
+2. Open Settings:
+   - **Mac**: Press `Cmd + ,` (Command + comma)
+   - **Windows/Linux**: Press `Ctrl + ,` (Control + comma)
 3. Click the **Extensions** tab on the left
 4. In the search box, type: `Pixels to Punk`
 5. Click the **Install** button next to the result
@@ -31,6 +33,17 @@ You'll find themes named things like "Cyber Dark," "Sakura Sprint," "Arcade Rain
 
 If you want to develop or modify these themes:
 
+**Mac:**
+```bash
+git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensions/fptp-themes
+```
+
+**Windows:**
+```bash
+git clone https://github.com/ryemyster/zed-ide-fptp-themes %APPDATA%\Zed\extensions\fptp-themes
+```
+
+**Linux:**
 ```bash
 git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensions/fptp-themes
 ```
@@ -38,7 +51,9 @@ git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensi
 ## How to Use Your New Themes
 
 1. Open **Zed** (the code editor)
-2. Press **Cmd + ,** (Command key + comma)
+2. Open Settings:
+   - **Mac**: Press `Cmd + ,` (Command + comma)
+   - **Windows/Linux**: Press `Ctrl + ,` (Control + comma)
 3. In the search box at the top, type: `theme`
 4. You'll see a list of themes. Look for any that start with "Pixels to Punk"
 5. Click one you like
