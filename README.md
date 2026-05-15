@@ -24,25 +24,26 @@ Once this extension is published to the Zed registry, you'll be able to install 
 
 ### Install Now (Clone from GitHub)
 
-Want to use these themes right now? Clone the repo to your extensions folder and Zed will automatically recognize it. 
+Want to use these themes right now? Clone the repo and install it as a dev extension in Zed.
 
-**Step 1: Open Terminal**
-Copy and paste the command below into your terminal:
+**Step 1: Clone the Repository**
 
 **Mac & Linux:**
 ```bash
-git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensions/fptp-themes
+git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/zed-themes
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/ryemyster/zed-ide-fptp-themes $env:APPDATA\Zed\extensions\fptp-themes
+git clone https://github.com/ryemyster/zed-ide-fptp-themes $HOME\zed-themes
 ```
 
-**Step 2: Restart Zed**
-- Close Zed completely
-- Reopen Zed
-- The extension will automatically load
+**Step 2: Install as Dev Extension**
+1. Open Zed
+2. Press `Cmd + Shift + X` (Mac) or `Ctrl + Shift + X` (Windows/Linux) to open Extensions
+3. Click **"Install Dev Extension"** button
+4. Select the folder where you cloned the repo (the one with `extension.toml`)
+5. Zed will load the extension
 
 **Step 3: Pick Your Theme**
 - Open Settings: `Cmd + ,` (Mac) or `Ctrl + ,` (Windows/Linux)
