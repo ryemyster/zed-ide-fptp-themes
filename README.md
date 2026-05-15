@@ -29,11 +29,13 @@ You'll find themes named things like "Cyber Dark," "Sakura Sprint," "Arcade Rain
 5. Click the **Install** button next to the result
 6. Done! ✨
 
-### For Developers
+### For Developers (Install Locally)
 
-If you want to develop or modify these themes:
+Want to test or modify the themes? Clone the repo and Zed will automatically recognize it as an extension.
 
-**Mac:**
+**Step 1: Clone the repository**
+
+**Mac & Linux:**
 ```bash
 git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensions/fptp-themes
 ```
@@ -43,10 +45,16 @@ git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensi
 git clone https://github.com/ryemyster/zed-ide-fptp-themes %APPDATA%\Zed\extensions\fptp-themes
 ```
 
-**Linux:**
-```bash
-git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensions/fptp-themes
-```
+**Step 2: Restart Zed**
+- Close and reopen Zed completely
+- The extension will automatically load
+
+**Step 3: Use the themes**
+- Follow the "How to Use Your New Themes" section above
+- All Pixels to Punk themes will now appear in your theme list
+
+**Want to modify the themes?**
+See [DEVELOPMENT.md](./DEVELOPMENT.md) for technical details on how the conversion script works.
 
 ## How to Use Your New Themes
 
