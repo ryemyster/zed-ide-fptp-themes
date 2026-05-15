@@ -18,56 +18,42 @@ You'll find themes named things like "Cyber Dark," "Sakura Sprint," "Arcade Rain
 
 ## Installation
 
-### The Easy Way (Recommended)
+### ✨ Coming Soon: The Easy Way (For Everyone)
 
-1. Open **Zed** (the code editor)
-2. Open Settings:
-   - **Mac**: Press `Cmd + ,` (Command + comma)
-   - **Windows/Linux**: Press `Ctrl + ,` (Control + comma)
-3. Click the **Extensions** tab on the left
-4. In the search box, type: `Pixels to Punk`
-5. Click the **Install** button next to the result
-6. Done! ✨
+Once this extension is published to the Zed registry, you'll be able to install it with just 6 clicks from the Extensions marketplace. Stay tuned!
 
-### For Developers (Install Locally)
+### Install Now (Clone from GitHub)
 
-Want to test or modify the themes? Clone the repo and Zed will automatically recognize it as an extension.
+Want to use these themes right now? Clone the repo to your extensions folder and Zed will automatically recognize it. 
 
-**Step 1: Clone the repository**
+**Step 1: Open Terminal**
+Copy and paste the command below into your terminal:
 
 **Mac & Linux:**
 ```bash
 git clone https://github.com/ryemyster/zed-ide-fptp-themes ~/.config/zed/extensions/fptp-themes
 ```
 
-**Windows:**
-```bash
-git clone https://github.com/ryemyster/zed-ide-fptp-themes %APPDATA%\Zed\extensions\fptp-themes
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/ryemyster/zed-ide-fptp-themes $env:APPDATA\Zed\extensions\fptp-themes
 ```
 
 **Step 2: Restart Zed**
-- Close and reopen Zed completely
+- Close Zed completely
+- Reopen Zed
 - The extension will automatically load
 
-**Step 3: Use the themes**
-- Follow the "How to Use Your New Themes" section above
-- All Pixels to Punk themes will now appear in your theme list
+**Step 3: Pick Your Theme**
+- Open Settings: `Cmd + ,` (Mac) or `Ctrl + ,` (Windows/Linux)
+- Search for `theme`
+- Select any theme starting with "Pixels to Punk"
+- Your colors change instantly! 🎨
 
-**Want to modify the themes?**
-See [DEVELOPMENT.md](./DEVELOPMENT.md) for technical details on how the conversion script works.
+**Want to modify or update the themes?**
+See [DEVELOPMENT.md](./DEVELOPMENT.md) for technical details.
 
-## How to Use Your New Themes
-
-1. Open **Zed** (the code editor)
-2. Open Settings:
-   - **Mac**: Press `Cmd + ,` (Command + comma)
-   - **Windows/Linux**: Press `Ctrl + ,` (Control + comma)
-3. In the search box at the top, type: `theme`
-4. You'll see a list of themes. Look for any that start with "Pixels to Punk"
-5. Click one you like
-6. Your code will instantly change to that theme's colors! 🎨
-
-### Picking Your First Theme
+## Picking Your First Theme
 
 New to choosing themes? Try these:
 - **Pixels to Punk Cyber Dark** - Cool, dark, easy on the eyes
