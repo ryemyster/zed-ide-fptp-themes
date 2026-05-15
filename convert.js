@@ -69,7 +69,7 @@ function convertTheme(vscodeTheme, filename) {
   // Extract main colors
   const colors = vscodeTheme.colors || {};
 
-  // Base colors
+  // Base colors - map to Zed color keys
   zedTheme.colors = {
     background: colors["editor.background"] || (isDark ? "#1e1e1e" : "#ffffff"),
     foreground: colors["editor.foreground"] || (isDark ? "#d4d4d4" : "#333333"),
@@ -84,6 +84,12 @@ function convertTheme(vscodeTheme, filename) {
   }
   if (colors["editor.lineHighlightBackground"]) {
     zedTheme.colors.line_highlight = colors["editor.lineHighlightBackground"];
+  }
+  if (colors["editorLineNumber.foreground"]) {
+    zedTheme.colors.line_number = colors["editorLineNumber.foreground"];
+  }
+  if (colors["editorLineNumber.activeForeground"]) {
+    zedTheme.colors.line_number_active = colors["editorLineNumber.activeForeground"];
   }
 
   // Syntax highlighting colors from semantic tokens
@@ -124,6 +130,7 @@ const results = {
   success: 0,
   failed: 0,
   errors: [],
+  themes: [],
 };
 
 files.forEach((file) => {
@@ -132,12 +139,7 @@ files.forEach((file) => {
     const vscodeTheme = JSON.parse(fs.readFileSync(filepath, "utf8"));
 
     const zedTheme = convertTheme(vscodeTheme, file);
-
-    // Generate output filename
-    const baseName = file.replace("-color-theme.json", "");
-    const outputFile = path.join(OUTPUT_DIR, `${baseName}.json`);
-
-    fs.writeFileSync(outputFile, JSON.stringify(zedTheme, null, 2));
+    results.themes.push(zedTheme);
     results.success++;
     console.log(`✓ Converted: ${file}`);
   } catch (error) {
@@ -147,9 +149,21 @@ files.forEach((file) => {
   }
 });
 
+// Create Theme Family wrapper with all themes
+const themeFamily = {
+  name: "Pixels to Punk",
+  author: "Ryan McDonald",
+  themes: results.themes,
+};
+
+// Write single output file
+const outputFile = path.join(OUTPUT_DIR, "pixels-to-punk.json");
+fs.writeFileSync(outputFile, JSON.stringify(themeFamily, null, 2));
+
 console.log("\n--- Conversion Summary ---");
 console.log(`✓ Success: ${results.success}`);
 console.log(`✗ Failed: ${results.failed}`);
+console.log(`\n📦 Theme Family: ${outputFile}`);
 
 if (results.errors.length > 0) {
   console.log("\nErrors:");
