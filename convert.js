@@ -27,62 +27,183 @@ function convertTheme(vscodeTheme, filename) {
   const isDark = guessThemeType(themeName) === "dark";
   const colors = vscodeTheme.colors || {};
 
+  const bg = colors["editor.background"] || (isDark ? "#1e1e1e" : "#ffffff");
+  const fg = colors["editor.foreground"] || (isDark ? "#d4d4d4" : "#333333");
+
   const style = {
-    background: colors["editor.background"] || (isDark ? "#1e1e1e" : "#ffffff"),
-    foreground: colors["editor.foreground"] || (isDark ? "#d4d4d4" : "#333333"),
+    background: bg,
+    foreground: fg,
+    cursor: colors["editorCursor.foreground"] || (isDark ? "#CCCCCC" : "#000000"),
+    selection: colors["editor.selectionBackground"],
+    line_highlight: colors["editor.lineHighlightBackground"],
+
+    // Editor UI
+    gutter: {
+      background: colors["editorGutter.background"] || bg,
+      foreground: colors["editorLineNumber.foreground"],
+    },
+    line_number: {
+      active: colors["editorLineNumber.activeForeground"],
+    },
+
+    // Search/highlighting
+    find_match: colors["editor.findMatchBackground"],
+    find_match_highlight: colors["editor.findMatchHighlightBackground"],
+    document_highlight_read: colors["editor.wordHighlightBackground"],
+    document_highlight_write: colors["editor.wordHighlightStrongBackground"],
+
+    // Diagnostics
+    error: colors["editorError.foreground"],
+    warning: colors["editorWarning.foreground"],
+    info: colors["editorInfo.foreground"],
+    hint: colors["editorInfo.foreground"],
+
+    // Editor brackets
+    brackets: {
+      background: colors["editorBracketHighlight.background"],
+      foreground1: colors["editorBracketHighlight.foreground1"],
+      foreground2: colors["editorBracketHighlight.foreground2"],
+      foreground3: colors["editorBracketHighlight.foreground3"],
+    },
+
+    // Indentation guide
+    indent_guide: {
+      background: colors["editorIndentGuide.background1"],
+      active_background: colors["editorIndentGuide.activeBackground1"],
+    },
+
+    // Gutter decorations
+    created: colors["editorGutter.addedBackground"] || colors["gitDecoration.addedResourceForeground"],
+    deleted: colors["editorGutter.deletedBackground"] || colors["gitDecoration.deletedResourceForeground"],
+    modified: colors["editorGutter.modifiedBackground"] || colors["gitDecoration.modifiedResourceForeground"],
+
+    // UI Elements
+    element: {
+      background: colors["list.hoverBackground"],
+      hover: colors["list.hoverBackground"],
+      active: colors["list.activeSelectionBackground"],
+      selected: colors["list.activeSelectionBackground"],
+      disabled: colors["list.inactiveSelectionBackground"],
+    },
+
+    // Text/focus
+    text: {
+      muted: colors["descriptionForeground"],
+      placeholder: colors["input.placeholderForeground"],
+    },
+
+    focus_border: colors["focusBorder"],
+    border: colors["contrastBorder"],
+
+    // Button
+    button: {
+      background: colors["button.background"],
+      hover_background: colors["button.hoverBackground"],
+      foreground: colors["button.foreground"],
+    },
+
+    // Input
+    input: {
+      background: colors["input.background"],
+      border: colors["input.border"],
+      foreground: colors["input.foreground"],
+      placeholder_foreground: colors["input.placeholderForeground"],
+    },
+
+    // Panels and sidebar
+    panel: {
+      background: colors["panel.background"],
+      border: colors["panel.border"],
+    },
+    sidebar: {
+      background: colors["sideBar.background"],
+      border: colors["sideBar.border"],
+      foreground: colors["sideBar.foreground"],
+    },
+    status_bar: {
+      background: colors["statusBar.background"],
+      foreground: colors["statusBar.foreground"],
+    },
+    title_bar: {
+      background: colors["titleBar.activeBackground"],
+      foreground: colors["titleBar.activeForeground"],
+    },
+    tab: {
+      active_background: colors["tab.activeBackground"],
+      active_foreground: colors["tab.activeForeground"],
+      inactive_background: colors["tab.inactiveBackground"],
+      inactive_foreground: colors["tab.inactiveForeground"],
+      bar_background: colors["editorGroupHeader.tabsBackground"],
+    },
+
+    // Terminal colors
+    terminal: {
+      background: colors["terminal.background"],
+      foreground: colors["terminal.foreground"],
+      ansi: {
+        black: colors["terminal.ansiBlack"],
+        red: colors["terminal.ansiRed"],
+        green: colors["terminal.ansiGreen"],
+        yellow: colors["terminal.ansiYellow"],
+        blue: colors["terminal.ansiBlue"],
+        magenta: colors["terminal.ansiMagenta"],
+        cyan: colors["terminal.ansiCyan"],
+        white: colors["terminal.ansiWhite"],
+        bright_black: colors["terminal.ansiBrightBlack"],
+        bright_red: colors["terminal.ansiBrightRed"],
+        bright_green: colors["terminal.ansiBrightGreen"],
+        bright_yellow: colors["terminal.ansiBrightYellow"],
+        bright_blue: colors["terminal.ansiBrightBlue"],
+        bright_magenta: colors["terminal.ansiBrightMagenta"],
+        bright_cyan: colors["terminal.ansiBrightCyan"],
+        bright_white: colors["terminal.ansiBrightWhite"],
+      },
+    },
+
+    // Scrollbar
+    scrollbar: {
+      thumb: {
+        background: colors["scrollbarSlider.background"],
+        hover_background: colors["scrollbarSlider.hoverBackground"],
+        active_background: colors["scrollbarSlider.activeBackground"],
+      },
+    },
+
+    // Dropdown/menu
+    dropdown: {
+      background: colors["dropdown.background"],
+      border: colors["dropdown.border"],
+      foreground: colors["dropdown.foreground"],
+    },
+    menu: {
+      background: colors["menu.background"],
+      foreground: colors["menu.foreground"],
+      selection: colors["menu.selectionBackground"],
+    },
   };
 
-  // Map common VSCode colors to Zed style properties
-  if (colors["editorCursor.foreground"]) {
-    style.cursor = colors["editorCursor.foreground"];
-  }
-  if (colors["editor.selectionBackground"]) {
-    style.selection = colors["editor.selectionBackground"];
-  }
-  if (colors["editor.lineHighlightBackground"]) {
-    style.line_highlight = colors["editor.lineHighlightBackground"];
-  }
-  if (colors["editorLineNumber.foreground"]) {
-    style.line_number = colors["editorLineNumber.foreground"];
-  }
-  if (colors["editorLineNumber.activeForeground"]) {
-    style.line_number_active = colors["editorLineNumber.activeForeground"];
-  }
-  if (colors["editor.findMatchBackground"]) {
-    style.find_match = colors["editor.findMatchBackground"];
-  }
-  if (colors["editorError.foreground"]) {
-    style.error = colors["editorError.foreground"];
-  }
-  if (colors["editorWarning.foreground"]) {
-    style.warning = colors["editorWarning.foreground"];
-  }
-  if (colors["editorInfo.foreground"]) {
-    style.info = colors["editorInfo.foreground"];
-  }
+  // Extract syntax highlighting from token colors as flat properties
+  const tokenColors = vscodeTheme.tokenColors || [];
 
-  // Add syntax highlighting from semantic tokens
-  const semanticTokens = vscodeTheme.semanticTokenColors || {};
-  Object.entries(semanticTokens).forEach(([tokenType, color]) => {
-    style[tokenType] = color;
-  });
+  tokenColors.forEach((tokenColor) => {
+    const scopes = Array.isArray(tokenColor.scope)
+      ? tokenColor.scope
+      : [tokenColor.scope];
+    const color = tokenColor.settings?.foreground;
 
-  // Fallback to tokenColors if semantic tokens are empty
-  if (Object.keys(semanticTokens).length === 0) {
-    const tokenColors = vscodeTheme.tokenColors || [];
-    tokenColors.forEach((tokenColor) => {
-      const scopes = Array.isArray(tokenColor.scope)
-        ? tokenColor.scope
-        : [tokenColor.scope];
-      const color = tokenColor.settings?.foreground;
+    scopes.forEach((scope) => {
+      if (color && scope) {
+        const key = scope
+          .replace(/\./g, "_")
+          .replace(/-/g, "_")
+          .toLowerCase();
 
-      scopes.forEach((scope) => {
-        if (color && !style[scope]) {
-          style[scope] = color;
+        if (!style[key]) {
+          style[key] = color;
         }
-      });
+      }
     });
-  }
+  });
 
   return {
     name: themeName,
