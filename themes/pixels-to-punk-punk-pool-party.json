@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Punk Pool Party",
+  "appearance": "dark",
+  "colors": {
+    "background": "#081B24",
+    "foreground": "#EFFFFC",
+    "cursor": "#00D5C8",
+    "selection": "#00D5C844",
+    "line_highlight": "#132F3A"
+  },
+  "syntax": {
+    "class": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#00D5C8",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF5A8A",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#00D5C8",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFE66D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FFAA72",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#6ED6FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FFAA72",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#EFFFFC",
+      "weight": "normal"
+    }
+  }
+}

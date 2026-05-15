@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Tokyo Fog Cutter",
+  "appearance": "dark",
+  "colors": {
+    "background": "#111821",
+    "foreground": "#EEF3F7",
+    "cursor": "#7DDDE6",
+    "selection": "#70D1DB42",
+    "line_highlight": "#1D2835"
+  },
+  "syntax": {
+    "class": {
+      "color": "#ADA2ED",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#ADA2ED",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#70D1DB",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#ADA2ED",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#DD7AB4",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#70D1DB",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#ADA2ED",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#E2BE72",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#D8A06F",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#91BEEF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#8FD2A0",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#ADA2ED",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#EEF3F7",
+      "weight": "normal"
+    }
+  }
+}

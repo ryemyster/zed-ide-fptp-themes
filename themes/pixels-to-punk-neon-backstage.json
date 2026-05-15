@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Neon Backstage",
+  "appearance": "dark",
+  "colors": {
+    "background": "#0B0B18",
+    "foreground": "#EEF3FF",
+    "cursor": "#24D9FF",
+    "selection": "#5B4DFF66",
+    "line_highlight": "#171632"
+  },
+  "syntax": {
+    "class": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#24D9FF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF36B7",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#24D9FF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFE05C",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FFB15E",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#5EA8FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF7A45",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#EEF3FF",
+      "weight": "normal"
+    }
+  }
+}

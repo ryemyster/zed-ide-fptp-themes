@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Toxic Valentine",
+  "appearance": "dark",
+  "colors": {
+    "background": "#171018",
+    "foreground": "#FFF0F6",
+    "cursor": "#FF3B8D",
+    "selection": "#FF3B8D44",
+    "line_highlight": "#251827"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B28CFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B28CFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#7D6BFF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B28CFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF3B8D",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#7D6BFF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B28CFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFD34D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF9B6A",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#57C7FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF9B6A",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B28CFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#FFF0F6",
+      "weight": "normal"
+    }
+  }
+}

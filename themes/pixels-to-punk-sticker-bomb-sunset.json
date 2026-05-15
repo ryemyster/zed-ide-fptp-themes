@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Sticker Bomb Sunset",
+  "appearance": "dark",
+  "colors": {
+    "background": "#18111F",
+    "foreground": "#FFF3F8",
+    "cursor": "#39E6C6",
+    "selection": "#FF4FA344",
+    "line_highlight": "#24182F"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A881FF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A881FF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#39E6C6",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A881FF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF4FA3",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#39E6C6",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A881FF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFB84D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF8D5C",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#67B7FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF8D5C",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A881FF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#FFF3F8",
+      "weight": "normal"
+    }
+  }
+}

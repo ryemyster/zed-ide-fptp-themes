@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Cherry CRT",
+  "appearance": "dark",
+  "colors": {
+    "background": "#120D12",
+    "foreground": "#F6EEF2",
+    "cursor": "#36F5B3",
+    "selection": "#FF365E44",
+    "line_highlight": "#1E151D"
+  },
+  "syntax": {
+    "class": {
+      "color": "#9D7CFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#9D7CFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#36F5B3",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#9D7CFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF365E",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#36F5B3",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#9D7CFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFCC4D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF9A5E",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#69B7FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF9A5E",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#9D7CFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F6EEF2",
+      "weight": "normal"
+    }
+  }
+}

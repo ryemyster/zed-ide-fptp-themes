@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Riot Glow Light",
+  "appearance": "light",
+  "colors": {
+    "background": "#FFF4FF",
+    "foreground": "#21102E",
+    "cursor": "#E0008E",
+    "selection": "#00A8C82E",
+    "line_highlight": "#F3DCFF"
+  },
+  "syntax": {
+    "class": {
+      "color": "#6637C6",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#6637C6",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#007B98",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#6637C6",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#E0008E",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#007B98",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#6637C6",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#9F6500",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#C34800",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#005DD6",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#348000",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#6637C6",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#21102E",
+      "weight": "normal"
+    }
+  }
+}

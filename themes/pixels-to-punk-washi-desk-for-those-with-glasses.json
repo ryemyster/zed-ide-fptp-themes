@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Washi Desk for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#EEF4F4",
+    "foreground": "#1E2A32",
+    "cursor": "#006C80",
+    "selection": "#006C802E",
+    "line_highlight": "#E4EEEE"
+  },
+  "syntax": {
+    "class": {
+      "color": "#4F5B9A",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#4F5B9A",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006C80",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#4F5B9A",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#8B3C72",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006C80",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#4F5B9A",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#745D18",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#765947",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2C6290",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#2F704F",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#4F5B9A",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#1E2A32",
+      "weight": "normal"
+    }
+  }
+}

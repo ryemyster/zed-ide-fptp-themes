@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Akihabara Game Dev Midnight",
+  "appearance": "dark",
+  "colors": {
+    "background": "#081724",
+    "foreground": "#EAF3FA",
+    "cursor": "#79DDEA",
+    "selection": "#68D2E242",
+    "line_highlight": "#13263B"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B1A1F3",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B1A1F3",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#68D2E2",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B1A1F3",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#E479B7",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#68D2E2",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B1A1F3",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#E7C36B",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#DFA06C",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#8DBEF2",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#86D49B",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B1A1F3",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#EAF3FA",
+      "weight": "normal"
+    }
+  }
+}

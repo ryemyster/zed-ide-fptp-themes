@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Kyoto Paper Lantern for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#F5F1E8",
+    "foreground": "#222937",
+    "cursor": "#006B76",
+    "selection": "#006B762E",
+    "line_highlight": "#EAE4DA"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5B539A",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5B539A",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006B76",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5B539A",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#8F376B",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006B76",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5B539A",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#7B5B16",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#80533B",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#315E92",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#8F4B3E",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5B539A",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#222937",
+      "weight": "normal"
+    }
+  }
+}

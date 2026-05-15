@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Anime Whiteboard",
+  "appearance": "light",
+  "colors": {
+    "background": "#F9FBFF",
+    "foreground": "#1B2230",
+    "cursor": "#006A86",
+    "selection": "#006A8630",
+    "line_highlight": "#EDF4FF"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5750A6",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5750A6",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006A86",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5750A6",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#A1267B",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006A86",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5750A6",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#785D00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#8A5032",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2D609E",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#974234",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5750A6",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#1B2230",
+      "weight": "normal"
+    }
+  }
+}

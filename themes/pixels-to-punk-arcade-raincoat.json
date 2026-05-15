@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Arcade Raincoat",
+  "appearance": "dark",
+  "colors": {
+    "background": "#0B1522",
+    "foreground": "#EAF6FF",
+    "cursor": "#3DBBFF",
+    "selection": "#3DBBFF44",
+    "line_highlight": "#17273D"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A489FF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A489FF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#3DBBFF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A489FF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF4FB3",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#3DBBFF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A489FF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#F8D85A",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF9C68",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#65A2FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF9C68",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A489FF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#EAF6FF",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Rainy Arcade",
+  "appearance": "dark",
+  "colors": {
+    "background": "#09121D",
+    "foreground": "#DDEBFF",
+    "cursor": "#58D7FF",
+    "selection": "#2B75C866",
+    "line_highlight": "#132033"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#58D7FF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF6BB5",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#58D7FF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFC857",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF9B6A",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#6EA8FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#80E68D",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#DDEBFF",
+      "weight": "normal"
+    }
+  }
+}

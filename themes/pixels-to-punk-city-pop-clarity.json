@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk City Pop Clarity",
+  "appearance": "light",
+  "colors": {
+    "background": "#F2F5F7",
+    "foreground": "#1B2430",
+    "cursor": "#006D7B",
+    "selection": "#006D7B30",
+    "line_highlight": "#E7EEF2"
+  },
+  "syntax": {
+    "class": {
+      "color": "#554FA0",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#554FA0",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006D7B",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#554FA0",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#96366F",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006D7B",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#554FA0",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#7A5C00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#875238",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2C6099",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#9D4239",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#554FA0",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#1B2430",
+      "weight": "normal"
+    }
+  }
+}

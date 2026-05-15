@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Original",
+  "appearance": "dark",
+  "colors": {
+    "background": "#131B2D",
+    "foreground": "#F5F5F6",
+    "cursor": "#2FD7F0",
+    "selection": "#54388B66",
+    "line_highlight": "#1D2646"
+  },
+  "syntax": {
+    "class": {
+      "color": "#625094",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#625094",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#2FD7F0",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#625094",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#E051A2",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#2FD7F0",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#625094",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FF7A5F",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#D86C7E",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#295697",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#DD6067",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#625094",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F5F5F6",
+      "weight": "normal"
+    }
+  }
+}

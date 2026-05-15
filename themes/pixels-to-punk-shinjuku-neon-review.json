@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Shinjuku Neon Review",
+  "appearance": "dark",
+  "colors": {
+    "background": "#11131F",
+    "foreground": "#EEF2FA",
+    "cursor": "#80DDE8",
+    "selection": "#72D1DE42",
+    "line_highlight": "#1D2236"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B0A0F0",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B0A0F0",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#72D1DE",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B0A0F0",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#E077BA",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#72D1DE",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B0A0F0",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#E7B16F",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#DFA084",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#92BEF2",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#F08C92",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B0A0F0",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#EEF2FA",
+      "weight": "normal"
+    }
+  }
+}

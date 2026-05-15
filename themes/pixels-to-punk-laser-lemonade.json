@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Laser Lemonade",
+  "appearance": "dark",
+  "colors": {
+    "background": "#10121A",
+    "foreground": "#F4F7FF",
+    "cursor": "#00E5FF",
+    "selection": "#00E5FF44",
+    "line_highlight": "#1C2030"
+  },
+  "syntax": {
+    "class": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#00E5FF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF3DBE",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#00E5FF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#F8FF4D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FFB84D",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#6EA8FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FFB84D",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#9C7BFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F4F7FF",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Original Dark for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#101827",
+    "foreground": "#E8ECF4",
+    "cursor": "#7BD8E4",
+    "selection": "#6ED0DD42",
+    "line_highlight": "#1A263C"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A99BE7",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A99BE7",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#6ED0DD",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A99BE7",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D970B1",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#6ED0DD",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A99BE7",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#E6A074",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#D997A1",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#8CB9EE",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#E4868C",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A99BE7",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#E8ECF4",
+      "weight": "normal"
+    }
+  }
+}

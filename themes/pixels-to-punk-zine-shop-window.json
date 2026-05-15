@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Zine Shop Window",
+  "appearance": "dark",
+  "colors": {
+    "background": "#FFF4E8",
+    "foreground": "#211A1C",
+    "cursor": "#E91E63",
+    "selection": "#005DFF24",
+    "line_highlight": "#F5E2D2"
+  },
+  "syntax": {
+    "class": {
+      "color": "#6144B8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#6144B8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#005DFF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#6144B8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#E91E63",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#005DFF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#6144B8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#9B6500",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#B64D1D",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#006C9E",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#B64D1D",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#6144B8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#211A1C",
+      "weight": "normal"
+    }
+  }
+}

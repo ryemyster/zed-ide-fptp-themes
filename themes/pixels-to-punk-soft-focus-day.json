@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Soft Focus Day",
+  "appearance": "light",
+  "colors": {
+    "background": "#F6F2E8",
+    "foreground": "#263032",
+    "cursor": "#286D70",
+    "selection": "#8C7AA83A",
+    "line_highlight": "#ECE7DC"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5D5686",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5D5686",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#286D70",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5D5686",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#8B3D62",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#286D70",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5D5686",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#8A5A2B",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#7A5A38",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#405F8D",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#3F704A",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5D5686",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#263032",
+      "weight": "normal"
+    }
+  }
+}

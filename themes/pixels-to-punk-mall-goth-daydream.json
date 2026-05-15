@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Mall Goth Daydream",
+  "appearance": "light",
+  "colors": {
+    "background": "#F7F3FA",
+    "foreground": "#241C2B",
+    "cursor": "#9D2F73",
+    "selection": "#9D2F732B",
+    "line_highlight": "#EEE6F4"
+  },
+  "syntax": {
+    "class": {
+      "color": "#6546A8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#6546A8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#166B8F",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#6546A8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#9D2F73",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#166B8F",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#6546A8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#9A6429",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#8C5532",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2D658F",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#4D7C38",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#6546A8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#241C2B",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Kyoto Night Train for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#111B27",
+    "foreground": "#E3EDF5",
+    "cursor": "#7FD5DF",
+    "selection": "#70CAD63D",
+    "line_highlight": "#1C2B3E"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A9A4DF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A9A4DF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#70CAD6",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A9A4DF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#CF83B6",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#70CAD6",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A9A4DF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#D9B679",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#CFA07B",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#8BB8E5",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#D58E8B",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A9A4DF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#E3EDF5",
+      "weight": "normal"
+    }
+  }
+}

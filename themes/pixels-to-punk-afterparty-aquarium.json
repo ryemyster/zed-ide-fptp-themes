@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Afterparty Aquarium",
+  "appearance": "dark",
+  "colors": {
+    "background": "#06191D",
+    "foreground": "#DFFBFF",
+    "cursor": "#49E0E8",
+    "selection": "#0E8A9B66",
+    "line_highlight": "#0F2B32"
+  },
+  "syntax": {
+    "class": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#49E0E8",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF7A8A",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#49E0E8",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFD06E",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FFB184",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#75D4B8",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#B7E36F",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#8FB5FF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#DFFBFF",
+      "weight": "normal"
+    }
+  }
+}

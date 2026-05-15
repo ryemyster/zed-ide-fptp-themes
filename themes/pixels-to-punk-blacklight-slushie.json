@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Blacklight Slushie",
+  "appearance": "light",
+  "colors": {
+    "background": "#0D1026",
+    "foreground": "#F2F5FF",
+    "cursor": "#00F0FF",
+    "selection": "#8B5CFF55",
+    "line_highlight": "#192044"
+  },
+  "syntax": {
+    "class": {
+      "color": "#8B5CFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#8B5CFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#00F0FF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#8B5CFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF4FD8",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#00F0FF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#8B5CFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFE45C",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF9F6A",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#6EA8FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF9F6A",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#8B5CFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F2F5FF",
+      "weight": "normal"
+    }
+  }
+}

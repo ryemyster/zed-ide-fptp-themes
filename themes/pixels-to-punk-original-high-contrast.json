@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Original High Contrast",
+  "appearance": "dark",
+  "colors": {
+    "background": "#071022",
+    "foreground": "#FFFFFF",
+    "cursor": "#21E6FF",
+    "selection": "#21E6FF44",
+    "line_highlight": "#111B38"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#21E6FF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF3FA8",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#21E6FF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FF9A5F",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF86A0",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#63A8FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#FF6F75",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A98BFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#FFFFFF",
+      "weight": "normal"
+    }
+  }
+}

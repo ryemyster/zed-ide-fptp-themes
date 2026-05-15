@@ -1,0 +1,8 @@
+{
+  "name": "fptp-zed-themes",
+  "version": "1.0.0",
+  "description": "Pixels to Punk themes for Zed",
+  "scripts": {
+    "convert": "node convert.js"
+  }
+}

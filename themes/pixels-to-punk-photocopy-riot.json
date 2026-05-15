@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Photocopy Riot",
+  "appearance": "dark",
+  "colors": {
+    "background": "#FAFAF2",
+    "foreground": "#191A1C",
+    "cursor": "#D62246",
+    "selection": "#005F9E2E",
+    "line_highlight": "#EFEDE3"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5E43A8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5E43A8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#005F9E",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5E43A8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D62246",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#005F9E",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5E43A8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#9A5A00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#A34B24",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#006B75",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#2E7D32",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5E43A8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#191A1C",
+      "weight": "normal"
+    }
+  }
+}

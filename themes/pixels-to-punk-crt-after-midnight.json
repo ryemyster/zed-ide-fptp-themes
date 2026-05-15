@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk CRT After Midnight",
+  "appearance": "dark",
+  "colors": {
+    "background": "#061316",
+    "foreground": "#D7FFF4",
+    "cursor": "#7DFF89",
+    "selection": "#1E8A8066",
+    "line_highlight": "#0E2227"
+  },
+  "syntax": {
+    "class": {
+      "color": "#55A6FF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#55A6FF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#41E6D1",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#55A6FF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#F05BC3",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#41E6D1",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#55A6FF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFB84D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FFCC7A",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#A2F970",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#7DFF89",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#55A6FF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#D7FFF4",
+      "weight": "normal"
+    }
+  }
+}

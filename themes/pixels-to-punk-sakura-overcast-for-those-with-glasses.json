@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Sakura Overcast for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#F6EEF2",
+    "foreground": "#2A2430",
+    "cursor": "#006D80",
+    "selection": "#006D802E",
+    "line_highlight": "#EDE2E9"
+  },
+  "syntax": {
+    "class": {
+      "color": "#554D9F",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#554D9F",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006D80",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#554D9F",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#8F2E68",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006D80",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#554D9F",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#765A20",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#87504B",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2E5E97",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#9D3D56",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#554D9F",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#2A2430",
+      "weight": "normal"
+    }
+  }
+}

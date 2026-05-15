@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Soft Focus Night",
+  "appearance": "dark",
+  "colors": {
+    "background": "#1B1D20",
+    "foreground": "#DCD8CC",
+    "cursor": "#CFC5A8",
+    "selection": "#74657F66",
+    "line_highlight": "#24282C"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B4ABD8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B4ABD8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#87BFC0",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B4ABD8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D79BB1",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#87BFC0",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B4ABD8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#D5B170",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#C6A27A",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#9EB8D6",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#A9C68F",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B4ABD8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#DCD8CC",
+      "weight": "normal"
+    }
+  }
+}

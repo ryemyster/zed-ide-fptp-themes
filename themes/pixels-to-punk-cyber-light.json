@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Cyber Light",
+  "appearance": "light",
+  "colors": {
+    "background": "#FFFDF7",
+    "foreground": "#202235",
+    "cursor": "#007E8C",
+    "selection": "#5B4BE830",
+    "line_highlight": "#EDF8F9"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5B4BE8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5B4BE8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#007E8C",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5B4BE8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#B00070",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#007E8C",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5B4BE8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#A65A00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#A65A00",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#315FD6",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#138A54",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5B4BE8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#202235",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Riot Glow Dark",
+  "appearance": "dark",
+  "colors": {
+    "background": "#24104A",
+    "foreground": "#F8F2FF",
+    "cursor": "#00E7FF",
+    "selection": "#00E7FF44",
+    "line_highlight": "#351A70"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B58AFF",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B58AFF",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#00E7FF",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B58AFF",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#FF35B8",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#00E7FF",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B58AFF",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#FFE14D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#FF944D",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#66A8FF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#B6FF3D",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B58AFF",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F8F2FF",
+      "weight": "normal"
+    }
+  }
+}

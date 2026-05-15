@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Onsen Twilight for Those with Glasses",
+  "appearance": "light",
+  "colors": {
+    "background": "#211719",
+    "foreground": "#F0E7EA",
+    "cursor": "#8AD2DC",
+    "selection": "#7FC7D03D",
+    "line_highlight": "#32262A"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B1A0DD",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B1A0DD",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#7FC7D0",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B1A0DD",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D58AB7",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#7FC7D0",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B1A0DD",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#D8B47A",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#D1A07D",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#93B1E1",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#DB9991",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B1A0DD",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F0E7EA",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Harajuku Product Pop",
+  "appearance": "dark",
+  "colors": {
+    "background": "#FFF8EC",
+    "foreground": "#202532",
+    "cursor": "#006B75",
+    "selection": "#006B7530",
+    "line_highlight": "#F3E8D8"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5B4EA0",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5B4EA0",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006B75",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5B4EA0",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#9B2E72",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006B75",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5B4EA0",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#805900",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#8C4F29",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2E5E9A",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#A33D45",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5B4EA0",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#202532",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Midnight Matsuri",
+  "appearance": "dark",
+  "colors": {
+    "background": "#171220",
+    "foreground": "#F2EEF8",
+    "cursor": "#82DDE7",
+    "selection": "#75D1DC42",
+    "line_highlight": "#251F35"
+  },
+  "syntax": {
+    "class": {
+      "color": "#B8A3F1",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#B8A3F1",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#75D1DC",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#B8A3F1",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#E47ABB",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#75D1DC",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#B8A3F1",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#E8B96F",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#DEA079",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#94BCEF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#F28D87",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#B8A3F1",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#F2EEF8",
+      "weight": "normal"
+    }
+  }
+}

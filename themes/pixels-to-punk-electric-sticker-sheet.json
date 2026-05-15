@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Electric Sticker Sheet",
+  "appearance": "dark",
+  "colors": {
+    "background": "#F7F2FF",
+    "foreground": "#24142E",
+    "cursor": "#D61DFF",
+    "selection": "#00B8FF30",
+    "line_highlight": "#EFE6FF"
+  },
+  "syntax": {
+    "class": {
+      "color": "#6541D8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#6541D8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#0083B8",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#6541D8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D61DFF",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#0083B8",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#6541D8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#A66F00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#C44A00",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#006FD6",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#C44A00",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#6541D8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#24142E",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Cyber Light for Those with Glasses",
+  "appearance": "light",
+  "colors": {
+    "background": "#F7F3EA",
+    "foreground": "#242A3A",
+    "cursor": "#006F7A",
+    "selection": "#6E88B536",
+    "line_highlight": "#ECE8DF"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5F54A8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5F54A8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006F7A",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5F54A8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#9B2E72",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006F7A",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5F54A8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#8B6400",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#965B24",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#335F9F",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#287A49",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5F54A8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#242A3A",
+      "weight": "normal"
+    }
+  }
+}

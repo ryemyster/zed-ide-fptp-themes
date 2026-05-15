@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Sakura Sprint",
+  "appearance": "dark",
+  "colors": {
+    "background": "#F4F7F0",
+    "foreground": "#1D2630",
+    "cursor": "#006C74",
+    "selection": "#006C7430",
+    "line_highlight": "#E9F0E3"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5751A1",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5751A1",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006C74",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5751A1",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#9A316E",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006C74",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5751A1",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#775D00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#884F2C",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2B5F98",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#2F7047",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5751A1",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#1D2630",
+      "weight": "normal"
+    }
+  }
+}

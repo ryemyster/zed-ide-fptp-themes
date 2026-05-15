@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Streetlight Noir",
+  "appearance": "light",
+  "colors": {
+    "background": "#0D1014",
+    "foreground": "#E7ECEB",
+    "cursor": "#E0AF57",
+    "selection": "#6B788466",
+    "line_highlight": "#171E24"
+  },
+  "syntax": {
+    "class": {
+      "color": "#A696D8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#A696D8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#79B7D6",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#A696D8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D36F86",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#79B7D6",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#A696D8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#CFA05D",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#D59A72",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#8CB8BE",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#E0AF57",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#A696D8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#E7ECEB",
+      "weight": "normal"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Matcha Notebook for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#F2F5EC",
+    "foreground": "#202B32",
+    "cursor": "#006C72",
+    "selection": "#006C722E",
+    "line_highlight": "#E7EDE0"
+  },
+  "syntax": {
+    "class": {
+      "color": "#595795",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#595795",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006C72",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#595795",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#8E3B68",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006C72",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#595795",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#725F12",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#7B5636",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#315F8E",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#33704A",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#595795",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#202B32",
+      "weight": "normal"
+    }
+  }
+}

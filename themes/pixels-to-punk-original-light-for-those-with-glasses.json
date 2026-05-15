@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Original Light for Those with Glasses",
+  "appearance": "light",
+  "colors": {
+    "background": "#F6F2EA",
+    "foreground": "#23283A",
+    "cursor": "#006D78",
+    "selection": "#006D7835",
+    "line_highlight": "#ECE5DB"
+  },
+  "syntax": {
+    "class": {
+      "color": "#5B4F9B",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#5B4F9B",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006D78",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#5B4F9B",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#973060",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006D78",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#5B4F9B",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#875A1F",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#8D4E35",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#2F5E97",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#A83F4E",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#5B4F9B",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#23283A",
+      "weight": "normal"
+    }
+  }
+}

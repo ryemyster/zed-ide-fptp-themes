@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Shibuya Sticker Day",
+  "appearance": "light",
+  "colors": {
+    "background": "#FFFFFF",
+    "foreground": "#172033",
+    "cursor": "#006A80",
+    "selection": "#006A8030",
+    "line_highlight": "#EEF4FF"
+  },
+  "syntax": {
+    "class": {
+      "color": "#514AA0",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#514AA0",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#006A80",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#514AA0",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#A02072",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#006A80",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#514AA0",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#7A5B00",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#8B4B2F",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#245D9C",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#9A3C30",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#514AA0",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#172033",
+      "weight": "normal"
+    }
+  }
+}

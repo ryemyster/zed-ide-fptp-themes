@@ -1,0 +1,65 @@
+{
+  "name": "Pixels to Punk Moonlit Tatami for Those with Glasses",
+  "appearance": "dark",
+  "colors": {
+    "background": "#151C1A",
+    "foreground": "#E5EEE9",
+    "cursor": "#80D3DA",
+    "selection": "#72C9D03D",
+    "line_highlight": "#222D29"
+  },
+  "syntax": {
+    "class": {
+      "color": "#AAA1D8",
+      "weight": "normal"
+    },
+    "enum": {
+      "color": "#AAA1D8",
+      "weight": "normal"
+    },
+    "function": {
+      "color": "#72C9D0",
+      "weight": "normal"
+    },
+    "interface": {
+      "color": "#AAA1D8",
+      "weight": "normal"
+    },
+    "keyword": {
+      "color": "#D083AD",
+      "weight": "normal"
+    },
+    "method": {
+      "color": "#72C9D0",
+      "weight": "normal"
+    },
+    "namespace": {
+      "color": "#AAA1D8",
+      "weight": "normal"
+    },
+    "number": {
+      "color": "#D5BC78",
+      "weight": "normal"
+    },
+    "parameter": {
+      "color": "#CCA47B",
+      "weight": "normal"
+    },
+    "property": {
+      "color": "#8BB5DF",
+      "weight": "normal"
+    },
+    "string": {
+      "color": "#95CB9A",
+      "weight": "normal"
+    },
+    "type": {
+      "color": "#AAA1D8",
+      "weight": "normal"
+    },
+    "variable": {
+      "color": "#E5EEE9",
+      "weight": "normal"
+    }
+  }
+}
