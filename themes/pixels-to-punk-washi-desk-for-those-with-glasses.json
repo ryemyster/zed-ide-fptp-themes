@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Washi Desk for Those with Glasses",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#EEF4F4",
         "text": "#1E2A32",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#006C80",
         "terminal.ansi.white": "#1E2A32",
         "terminal.ansi.bright_black": "#5D6D76",
-        "terminal.ansi.bright_red": "#BD5C6A",
-        "terminal.ansi.bright_green": "#438A61",
-        "terminal.ansi.bright_yellow": "#907330",
-        "terminal.ansi.bright_blue": "#477DAD",
-        "terminal.ansi.bright_magenta": "#A7558C",
-        "terminal.ansi.bright_cyan": "#00899F",
-        "terminal.ansi.bright_white": "#F8FCFC",
+        "terminal.ansi.bright_red": "#ac5461",
+        "terminal.ansi.bright_green": "#3c7b57",
+        "terminal.ansi.bright_yellow": "#876b2d",
+        "terminal.ansi.bright_blue": "#4273a0",
+        "terminal.ansi.bright_magenta": "#a4538a",
+        "terminal.ansi.bright_cyan": "#007a8e",
+        "terminal.ansi.bright_white": "#6e6f6f",
         "players": [
           {
             "cursor": "#006C80",

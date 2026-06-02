@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Zine Shop Window",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#FFF4E8",
         "text": "#211A1C",
@@ -72,17 +72,17 @@
         "terminal.ansi.green": "#005DFF",
         "terminal.ansi.yellow": "#9B6500",
         "terminal.ansi.blue": "#005DFF",
-        "terminal.ansi.magenta": "#E91E63",
+        "terminal.ansi.magenta": "#d91c5c",
         "terminal.ansi.cyan": "#005DFF",
         "terminal.ansi.white": "#211A1C",
         "terminal.ansi.bright_black": "#78696B",
-        "terminal.ansi.bright_red": "#E33658",
-        "terminal.ansi.bright_green": "#008AA8",
-        "terminal.ansi.bright_yellow": "#B87800",
-        "terminal.ansi.bright_blue": "#2B78FF",
-        "terminal.ansi.bright_magenta": "#F04C88",
-        "terminal.ansi.bright_cyan": "#008AA8",
-        "terminal.ansi.bright_white": "#FFFFFF",
+        "terminal.ansi.bright_red": "#d13251",
+        "terminal.ansi.bright_green": "#007b96",
+        "terminal.ansi.bright_yellow": "#9c6500",
+        "terminal.ansi.bright_blue": "#266be3",
+        "terminal.ansi.bright_magenta": "#c53e70",
+        "terminal.ansi.bright_cyan": "#007b96",
+        "terminal.ansi.bright_white": "#707070",
         "players": [
           {
             "cursor": "#E91E63",

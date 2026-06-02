@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Onsen Twilight for Those with Glasses",
-      "appearance": "light",
+      "appearance": "dark",
       "style": {
         "background": "#211719",
         "text": "#F0E7EA",
@@ -67,7 +67,7 @@
         "scrollbar.track.border": "#211719",
         "terminal.background": "#211719",
         "terminal.foreground": "#F0E7EA",
-        "terminal.ansi.black": "#211719",
+        "terminal.ansi.black": "#868081",
         "terminal.ansi.red": "#EC808D",
         "terminal.ansi.green": "#7FC7D0",
         "terminal.ansi.yellow": "#D8B47A",

@@ -67,7 +67,7 @@
         "scrollbar.track.border": "#160F24",
         "terminal.background": "#160F24",
         "terminal.foreground": "#F7ECFF",
-        "terminal.ansi.black": "#160F24",
+        "terminal.ansi.black": "#7f7b86",
         "terminal.ansi.red": "#FF5F7D",
         "terminal.ansi.green": "#56F0FF",
         "terminal.ansi.yellow": "#FFD166",

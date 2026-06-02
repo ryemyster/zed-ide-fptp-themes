@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Sakura Overcast for Those with Glasses",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#F6EEF2",
         "text": "#2A2430",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#006D80",
         "terminal.ansi.white": "#2A2430",
         "terminal.ansi.bright_black": "#736879",
-        "terminal.ansi.bright_red": "#BD5870",
-        "terminal.ansi.bright_green": "#008A9E",
-        "terminal.ansi.bright_yellow": "#927133",
-        "terminal.ansi.bright_blue": "#4A79B5",
+        "terminal.ansi.bright_red": "#ac5066",
+        "terminal.ansi.bright_green": "#00788a",
+        "terminal.ansi.bright_yellow": "#87692f",
+        "terminal.ansi.bright_blue": "#446fa7",
         "terminal.ansi.bright_magenta": "#A94D85",
-        "terminal.ansi.bright_cyan": "#008A9E",
-        "terminal.ansi.bright_white": "#FFF9FC",
+        "terminal.ansi.bright_cyan": "#00788a",
+        "terminal.ansi.bright_white": "#6f6d6e",
         "players": [
           {
             "cursor": "#006D80",

@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Blacklight Slushie",
-      "appearance": "light",
+      "appearance": "dark",
       "style": {
         "background": "#0D1026",
         "text": "#F2F5FF",
@@ -67,7 +67,7 @@
         "scrollbar.track.border": "#0D1026",
         "terminal.background": "#0D1026",
         "terminal.foreground": "#F2F5FF",
-        "terminal.ansi.black": "#0D1026",
+        "terminal.ansi.black": "#7a7c88",
         "terminal.ansi.red": "#FF5C7A",
         "terminal.ansi.green": "#00F0FF",
         "terminal.ansi.yellow": "#FFE45C",

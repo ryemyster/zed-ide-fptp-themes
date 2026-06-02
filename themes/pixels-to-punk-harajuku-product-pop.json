@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Harajuku Product Pop",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#FFF8EC",
         "text": "#202532",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#006B75",
         "terminal.ansi.white": "#202532",
         "terminal.ansi.bright_black": "#6A7080",
-        "terminal.ansi.bright_red": "#C95463",
-        "terminal.ansi.bright_green": "#008793",
-        "terminal.ansi.bright_yellow": "#9A6E00",
-        "terminal.ansi.bright_blue": "#4978B7",
+        "terminal.ansi.bright_red": "#bc4f5d",
+        "terminal.ansi.bright_green": "#007f8b",
+        "terminal.ansi.bright_yellow": "#966b00",
+        "terminal.ansi.bright_blue": "#4774b2",
         "terminal.ansi.bright_magenta": "#B34C8E",
-        "terminal.ansi.bright_cyan": "#008793",
-        "terminal.ansi.bright_white": "#FFFCF6",
+        "terminal.ansi.bright_cyan": "#007f8b",
+        "terminal.ansi.bright_white": "#747270",
         "players": [
           {
             "cursor": "#006B75",

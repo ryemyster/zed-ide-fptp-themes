@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Kyoto Paper Lantern for Those with Glasses",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#F5F1E8",
         "text": "#222937",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#006B76",
         "terminal.ansi.white": "#222937",
         "terminal.ansi.bright_black": "#5F6878",
-        "terminal.ansi.bright_red": "#BF5E6B",
-        "terminal.ansi.bright_green": "#008893",
-        "terminal.ansi.bright_yellow": "#96712B",
-        "terminal.ansi.bright_blue": "#4D78AF",
-        "terminal.ansi.bright_magenta": "#AA558C",
-        "terminal.ansi.bright_cyan": "#008893",
-        "terminal.ansi.bright_white": "#FCFAF4",
+        "terminal.ansi.bright_red": "#aa535f",
+        "terminal.ansi.bright_green": "#007a84",
+        "terminal.ansi.bright_yellow": "#8b6828",
+        "terminal.ansi.bright_blue": "#4870a4",
+        "terminal.ansi.bright_magenta": "#a45287",
+        "terminal.ansi.bright_cyan": "#007a84",
+        "terminal.ansi.bright_white": "#6f6e6c",
         "players": [
           {
             "cursor": "#006B76",

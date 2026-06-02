@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Electric Sticker Sheet High Contrast",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#FFFFFF",
         "text": "#13091C",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#006B99",
         "terminal.ansi.white": "#13091C",
         "terminal.ansi.bright_black": "#5B4B68",
-        "terminal.ansi.bright_red": "#E02F5A",
+        "terminal.ansi.bright_red": "#de2f59",
         "terminal.ansi.bright_green": "#006B99",
-        "terminal.ansi.bright_yellow": "#A66D00",
+        "terminal.ansi.bright_yellow": "#a36b00",
         "terminal.ansi.bright_blue": "#006DDF",
-        "terminal.ansi.bright_magenta": "#D12BFF",
-        "terminal.ansi.bright_cyan": "#0088C7",
-        "terminal.ansi.bright_white": "#FFFFFF",
+        "terminal.ansi.bright_magenta": "#be27e8",
+        "terminal.ansi.bright_cyan": "#007db8",
+        "terminal.ansi.bright_white": "#767676",
         "players": [
           {
             "cursor": "#B800E6",

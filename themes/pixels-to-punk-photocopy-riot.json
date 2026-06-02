@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Photocopy Riot",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#FAFAF2",
         "text": "#191A1C",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#005F9E",
         "terminal.ansi.white": "#191A1C",
         "terminal.ansi.bright_black": "#73706A",
-        "terminal.ansi.bright_red": "#E33658",
-        "terminal.ansi.bright_green": "#399444",
-        "terminal.ansi.bright_yellow": "#B87400",
-        "terminal.ansi.bright_blue": "#1678BD",
+        "terminal.ansi.bright_red": "#d53353",
+        "terminal.ansi.bright_green": "#32833c",
+        "terminal.ansi.bright_yellow": "#a26600",
+        "terminal.ansi.bright_blue": "#1678bc",
         "terminal.ansi.bright_magenta": "#7256C0",
-        "terminal.ansi.bright_cyan": "#008291",
-        "terminal.ansi.bright_white": "#FFFFFF",
+        "terminal.ansi.bright_cyan": "#007f8e",
+        "terminal.ansi.bright_white": "#737373",
         "players": [
           {
             "cursor": "#D62246",

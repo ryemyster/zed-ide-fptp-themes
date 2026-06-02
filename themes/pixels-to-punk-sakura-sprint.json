@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Sakura Sprint",
-      "appearance": "dark",
+      "appearance": "light",
       "style": {
         "background": "#F4F7F0",
         "text": "#1D2630",
@@ -76,13 +76,13 @@
         "terminal.ansi.cyan": "#006C74",
         "terminal.ansi.white": "#1D2630",
         "terminal.ansi.bright_black": "#637183",
-        "terminal.ansi.bright_red": "#C75365",
-        "terminal.ansi.bright_green": "#3F8A5B",
-        "terminal.ansi.bright_yellow": "#917300",
-        "terminal.ansi.bright_blue": "#467AB7",
-        "terminal.ansi.bright_magenta": "#B44E8D",
-        "terminal.ansi.bright_cyan": "#008993",
-        "terminal.ansi.bright_white": "#FCFFF8",
+        "terminal.ansi.bright_red": "#ba4d5e",
+        "terminal.ansi.bright_green": "#3a7e53",
+        "terminal.ansi.bright_yellow": "#8a6e00",
+        "terminal.ansi.bright_blue": "#4273ad",
+        "terminal.ansi.bright_magenta": "#b14d8b",
+        "terminal.ansi.bright_cyan": "#007d87",
+        "terminal.ansi.bright_white": "#70716e",
         "players": [
           {
             "cursor": "#006C74",

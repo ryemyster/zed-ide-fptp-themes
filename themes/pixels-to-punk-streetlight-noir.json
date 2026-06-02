@@ -5,7 +5,7 @@
   "themes": [
     {
       "name": "Pixels to Punk Streetlight Noir",
-      "appearance": "light",
+      "appearance": "dark",
       "style": {
         "background": "#0D1014",
         "text": "#E7ECEB",
@@ -67,7 +67,7 @@
         "scrollbar.track.border": "#0D1014",
         "terminal.background": "#0D1014",
         "terminal.foreground": "#E7ECEB",
-        "terminal.ansi.black": "#0D1014",
+        "terminal.ansi.black": "#7a7b7d",
         "terminal.ansi.red": "#E15E6E",
         "terminal.ansi.green": "#80C083",
         "terminal.ansi.yellow": "#E0AF57",
@@ -75,7 +75,7 @@
         "terminal.ansi.magenta": "#D36F86",
         "terminal.ansi.cyan": "#79B7D6",
         "terminal.ansi.white": "#E7ECEB",
-        "terminal.ansi.bright_black": "#6A7577",
+        "terminal.ansi.bright_black": "#737d7f",
         "terminal.ansi.bright_red": "#F07A86",
         "terminal.ansi.bright_green": "#A0D9A2",
         "terminal.ansi.bright_yellow": "#F0C878",

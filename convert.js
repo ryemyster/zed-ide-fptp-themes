@@ -5,6 +5,7 @@ const VSCODE_THEMES_DIR =
   "/Users/rmcdonald/Repos/ryemyster/vscode-themes-vibecoded/themes";
 const OUTPUT_DIR = "/Users/rmcdonald/Repos/ryemyster/zed-themes/themes";
 const SCHEMA_URL = "https://zed.dev/schema/themes/v0.2.0.json";
+const MIN_TERMINAL_CONTRAST = 4.5;
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -20,6 +21,73 @@ function guessThemeType(vscodeName) {
   )
     ? "light"
     : "dark";
+}
+
+function parseHexColor(color) {
+  const match = /^#([0-9a-f]{6})$/i.exec(color || "");
+  if (!match) return null;
+
+  const value = parseInt(match[1], 16);
+  return [(value >> 16) & 255, (value >> 8) & 255, value & 255];
+}
+
+function toHexColor(rgb) {
+  return `#${rgb.map((value) => Math.round(value).toString(16).padStart(2, "0")).join("")}`;
+}
+
+function relativeLuminance(color) {
+  const rgb = parseHexColor(color);
+  if (!rgb) return null;
+
+  const channels = rgb.map((value) => {
+    const channel = value / 255;
+    return channel <= 0.04045
+      ? channel / 12.92
+      : ((channel + 0.055) / 1.055) ** 2.4;
+  });
+
+  return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+}
+
+function contrastRatio(foreground, background) {
+  const foregroundLuminance = relativeLuminance(foreground);
+  const backgroundLuminance = relativeLuminance(background);
+  if (foregroundLuminance === null || backgroundLuminance === null) return null;
+
+  return (
+    (Math.max(foregroundLuminance, backgroundLuminance) + 0.05) /
+    (Math.min(foregroundLuminance, backgroundLuminance) + 0.05)
+  );
+}
+
+function mixColors(color, target, amount) {
+  const rgb = parseHexColor(color);
+  const targetRgb = parseHexColor(target);
+  if (!rgb || !targetRgb) return color;
+
+  return toHexColor(rgb.map((value, index) => value + (targetRgb[index] - value) * amount));
+}
+
+function ensureTerminalContrast(color, background) {
+  const ratio = contrastRatio(color, background);
+  if (ratio === null || ratio >= MIN_TERMINAL_CONTRAST) return color;
+
+  const blackContrast = contrastRatio("#000000", background);
+  const whiteContrast = contrastRatio("#FFFFFF", background);
+  const target = blackContrast > whiteContrast ? "#000000" : "#FFFFFF";
+  let low = 0;
+  let high = 1;
+
+  for (let iteration = 0; iteration < 12; iteration++) {
+    const midpoint = (low + high) / 2;
+    if (contrastRatio(mixColors(color, target, midpoint), background) >= MIN_TERMINAL_CONTRAST) {
+      high = midpoint;
+    } else {
+      low = midpoint;
+    }
+  }
+
+  return mixColors(color, target, high);
 }
 
 // Maps VSCode tokenColor scopes to Zed syntax token names
@@ -60,7 +128,7 @@ const SCOPE_TO_ZED = {
 
 function convertTheme(vscodeTheme) {
   const themeName = vscodeTheme.name || "Untitled Theme";
-  const isDark = guessThemeType(themeName) === "dark";
+  const isDark = (vscodeTheme.type || guessThemeType(themeName)) === "dark";
   const colors = vscodeTheme.colors || {};
 
   const bg = colors["editor.background"] || (isDark ? "#1e1e1e" : "#ffffff");
@@ -154,24 +222,29 @@ function convertTheme(vscodeTheme) {
   set("scrollbar.track.border", colors["editorGutter.background"] || bg);
 
   // Terminal
-  set("terminal.background", colors["terminal.background"]);
-  set("terminal.foreground", colors["terminal.foreground"]);
-  set("terminal.ansi.black", colors["terminal.ansiBlack"]);
-  set("terminal.ansi.red", colors["terminal.ansiRed"]);
-  set("terminal.ansi.green", colors["terminal.ansiGreen"]);
-  set("terminal.ansi.yellow", colors["terminal.ansiYellow"]);
-  set("terminal.ansi.blue", colors["terminal.ansiBlue"]);
-  set("terminal.ansi.magenta", colors["terminal.ansiMagenta"]);
-  set("terminal.ansi.cyan", colors["terminal.ansiCyan"]);
-  set("terminal.ansi.white", colors["terminal.ansiWhite"]);
-  set("terminal.ansi.bright_black", colors["terminal.ansiBrightBlack"]);
-  set("terminal.ansi.bright_red", colors["terminal.ansiBrightRed"]);
-  set("terminal.ansi.bright_green", colors["terminal.ansiBrightGreen"]);
-  set("terminal.ansi.bright_yellow", colors["terminal.ansiBrightYellow"]);
-  set("terminal.ansi.bright_blue", colors["terminal.ansiBrightBlue"]);
-  set("terminal.ansi.bright_magenta", colors["terminal.ansiBrightMagenta"]);
-  set("terminal.ansi.bright_cyan", colors["terminal.ansiBrightCyan"]);
-  set("terminal.ansi.bright_white", colors["terminal.ansiBrightWhite"]);
+  const terminalBackground = colors["terminal.background"] || bg;
+  const setTerminalColor = (key, color) => {
+    set(key, ensureTerminalContrast(color, terminalBackground));
+  };
+
+  set("terminal.background", terminalBackground);
+  setTerminalColor("terminal.foreground", colors["terminal.foreground"] || fg);
+  setTerminalColor("terminal.ansi.black", colors["terminal.ansiBlack"]);
+  setTerminalColor("terminal.ansi.red", colors["terminal.ansiRed"]);
+  setTerminalColor("terminal.ansi.green", colors["terminal.ansiGreen"]);
+  setTerminalColor("terminal.ansi.yellow", colors["terminal.ansiYellow"]);
+  setTerminalColor("terminal.ansi.blue", colors["terminal.ansiBlue"]);
+  setTerminalColor("terminal.ansi.magenta", colors["terminal.ansiMagenta"]);
+  setTerminalColor("terminal.ansi.cyan", colors["terminal.ansiCyan"]);
+  setTerminalColor("terminal.ansi.white", colors["terminal.ansiWhite"]);
+  setTerminalColor("terminal.ansi.bright_black", colors["terminal.ansiBrightBlack"]);
+  setTerminalColor("terminal.ansi.bright_red", colors["terminal.ansiBrightRed"]);
+  setTerminalColor("terminal.ansi.bright_green", colors["terminal.ansiBrightGreen"]);
+  setTerminalColor("terminal.ansi.bright_yellow", colors["terminal.ansiBrightYellow"]);
+  setTerminalColor("terminal.ansi.bright_blue", colors["terminal.ansiBrightBlue"]);
+  setTerminalColor("terminal.ansi.bright_magenta", colors["terminal.ansiBrightMagenta"]);
+  setTerminalColor("terminal.ansi.bright_cyan", colors["terminal.ansiBrightCyan"]);
+  setTerminalColor("terminal.ansi.bright_white", colors["terminal.ansiBrightWhite"]);
 
   // Players: cursor and selection colors
   style.players = [
