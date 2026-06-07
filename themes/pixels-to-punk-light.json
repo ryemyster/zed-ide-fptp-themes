@@ -116,7 +116,7 @@
             "color": "#4A5275"
           },
           "invalid": {
-            "color": "#FFFFFF"
+            "color": "#B83058"
           }
         },
         "terminal.background": "#F2F4FF",
@@ -128,7 +128,7 @@
         "terminal.ansi.blue": "#063079",
         "terminal.ansi.magenta": "#6D034D",
         "terminal.ansi.cyan": "#023C4B",
-        "terminal.ansi.white": "#E8ECFF",
+        "terminal.ansi.white": "#4A5275",
         "terminal.ansi.bright_black": "#242A3D",
         "terminal.ansi.bright_red": "#840016",
         "terminal.ansi.bright_green": "#024613",
@@ -136,7 +136,7 @@
         "terminal.ansi.bright_blue": "#032F7C",
         "terminal.ansi.bright_magenta": "#70004E",
         "terminal.ansi.bright_cyan": "#003948",
-        "terminal.ansi.bright_white": "#FFFFFF"
+        "terminal.ansi.bright_white": "#6B7393"
       }
     }
   ]

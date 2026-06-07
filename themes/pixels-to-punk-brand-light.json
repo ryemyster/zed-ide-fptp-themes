@@ -11,7 +11,7 @@
         "text": "#2D1B4E",
         "editor.background": "#F5F0FF",
         "editor.foreground": "#2D1B4E",
-        "editor.line_number": "#B8A6D8",
+        "editor.line_number": "#8878B0",
         "editor.active_line_number": "#FF1493",
         "editor.active_line.background": "#E8D7F0",
         "editor.gutter.background": "#F5F0FF",
@@ -29,8 +29,8 @@
         "deleted": "#D63031",
         "modified": "#E09B00",
         "conflict": "#C91F5F",
-        "ignored": "#B8A6D8",
-        "hidden": "#B8A6D8",
+        "ignored": "#8878B0",
+        "hidden": "#8878B0",
         "renamed": "#0099CC",
         "border": "#D9C8E8",
         "border.focused": "#FF1493",
@@ -45,7 +45,7 @@
         "ghost_element.active": "#FF14934A",
         "ghost_element.selected": "#FF149335",
         "text.muted": "#7B6FA6",
-        "text.placeholder": "#9D8FBD",
+        "text.placeholder": "#8A7DB5",
         "text.accent": "#FF1493",
         "icon.muted": "#B8A6D8",
         "surface.background": "#FAFAFF",
@@ -97,50 +97,50 @@
         ],
         "syntax": {
           "comment": {
-            "color": "#7B6FA6",
+            "color": "#716699",
             "font_style": "italic"
           },
           "string": {
-            "color": "#00A86B"
+            "color": "#007F51"
           },
           "title": {
-            "color": "#00A86B"
+            "color": "#007F51"
           },
           "number": {
-            "color": "#E09B00"
+            "color": "#936600"
           },
           "boolean": {
-            "color": "#E09B00"
+            "color": "#936600"
           },
           "constant": {
-            "color": "#E09B00"
+            "color": "#936600"
           },
           "keyword": {
-            "color": "#FF1493"
+            "color": "#D3107A"
           },
           "function": {
-            "color": "#0099CC"
+            "color": "#00769E"
           },
           "variable": {
             "color": "#2D1B4E"
           },
           "variable.special": {
-            "color": "#E97300"
+            "color": "#AE5600"
           },
           "type": {
-            "color": "#0088BB"
+            "color": "#0077A4"
           },
           "attribute": {
-            "color": "#0099CC"
+            "color": "#00769E"
           },
           "property": {
-            "color": "#0099CC"
+            "color": "#00769E"
           },
           "punctuation": {
-            "color": "#7B6FA6"
+            "color": "#716699"
           },
           "invalid": {
-            "color": "#2D1B4E"
+            "color": "#D02E2F"
           }
         }
       }

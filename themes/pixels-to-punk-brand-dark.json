@@ -140,7 +140,7 @@
             "color": "#9D8FBD"
           },
           "invalid": {
-            "color": "#FFFFFF"
+            "color": "#FF6347"
           }
         }
       }

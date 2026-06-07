@@ -116,7 +116,7 @@
             "color": "#7888A8"
           },
           "invalid": {
-            "color": "#FFFFFF"
+            "color": "#E04060"
           }
         },
         "terminal.background": "#08091C",

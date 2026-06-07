@@ -92,7 +92,7 @@
         ],
         "syntax": {
           "comment": {
-            "color": "#817F9A",
+            "color": "#83819C",
             "font_style": "italic"
           },
           "string": {
@@ -123,19 +123,19 @@
             "color": "#D86C7E"
           },
           "type": {
-            "color": "#625094"
+            "color": "#8D73D6"
           },
           "attribute": {
-            "color": "#295697"
+            "color": "#3E83E6"
           },
           "property": {
-            "color": "#295697"
+            "color": "#3E83E6"
           },
           "punctuation": {
             "color": "#B9B6C4"
           },
           "invalid": {
-            "color": "#FFFFFF"
+            "color": "#EE3B73"
           }
         }
       }

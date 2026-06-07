@@ -135,7 +135,7 @@
             "color": "#D3C3CA"
           },
           "invalid": {
-            "color": "#FFFFFF"
+            "color": "#FF365E"
           }
         }
       }
