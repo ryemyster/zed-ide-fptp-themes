@@ -1,0 +1,143 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Pixels to Punk",
+  "author": "Ryan McDonald",
+  "themes": [
+    {
+      "name": "Pixels to Punk NieR: Automata Light",
+      "appearance": "light",
+      "style": {
+        "background": "#F5F0E8",
+        "surface.background": "#EDE8DC",
+        "editor.background": "#F5F0E8",
+        "editor.gutter.background": "#F5F0E8",
+        "elevated_surface.background": "#E5DFD0",
+        "panel.background": "#EFE9DC",
+        "tab_bar.background": "#EFE9DC",
+        "tab.active_background": "#F5F0E8",
+        "tab.inactive_background": "#EFE9DC",
+        "title_bar.background": "#EFE9DC",
+        "title_bar.inactive_background": "#F5F0E8",
+        "toolbar.background": "#EFE9DC",
+        "status_bar.background": "#EFE9DC",
+        "text": "#201810",
+        "text.muted": "#706050",
+        "text.placeholder": "#A09080",
+        "text.accent": "#A01818",
+        "border": "#D0C8B8",
+        "border.focused": "#A01818",
+        "border.selected": "#A01818",
+        "border.variant": "#DAD2C0",
+        "panel.focused_border": "#D0C8B8",
+        "editor.foreground": "#201810",
+        "editor.line_number": "#A09080",
+        "editor.active_line_number": "#8C6800",
+        "editor.active_line.background": "#ECE6D8",
+        "editor.indent_guide": "#D8D0C0",
+        "editor.indent_guide_active": "#B8A888",
+        "editor.document_highlight.read_background": "#30589025",
+        "editor.document_highlight.write_background": "#A0181820",
+        "element.background": "#E4DDD0",
+        "element.hover": "#A0181822",
+        "element.active": "#A0181850",
+        "element.selected": "#A0181838",
+        "element.disabled": "#EEE8DC",
+        "ghost_element.hover": "#A0181818",
+        "ghost_element.active": "#A0181845",
+        "ghost_element.selected": "#A0181830",
+        "drop_target.background": "#A0181848",
+        "players": [
+          {
+            "cursor": "#A01818",
+            "selection": "#A0181838",
+            "background": "#A01818"
+          }
+        ],
+        "scrollbar.track.background": "#F5F0E8",
+        "scrollbar.track.border": "#F5F0E8",
+        "scrollbar.thumb.background": "#C0B8A855",
+        "scrollbar.thumb.border": "#C0B8A855",
+        "scrollbar.thumb.hover_background": "#A09878AA",
+        "search.match_background": "#8C680050",
+        "error": "#A01818",
+        "warning": "#8C6800",
+        "info": "#305890",
+        "success": "#3A7020",
+        "hint": "#305890",
+        "hidden": "#A09080",
+        "ignored": "#A09080",
+        "conflict": "#684898",
+        "created": "#3A7020",
+        "deleted": "#A01818",
+        "modified": "#8C6800",
+        "renamed": "#305890",
+        "syntax": {
+          "comment": {
+            "color": "#A09080",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "#3A7020"
+          },
+          "title": {
+            "color": "#3A7020"
+          },
+          "number": {
+            "color": "#8C6800"
+          },
+          "boolean": {
+            "color": "#8C6800"
+          },
+          "constant": {
+            "color": "#8C6800"
+          },
+          "keyword": {
+            "color": "#A01818"
+          },
+          "function": {
+            "color": "#8C6800"
+          },
+          "variable": {
+            "color": "#201810"
+          },
+          "variable.special": {
+            "color": "#6A4010"
+          },
+          "type": {
+            "color": "#684898"
+          },
+          "attribute": {
+            "color": "#305890"
+          },
+          "property": {
+            "color": "#2A5080"
+          },
+          "punctuation": {
+            "color": "#706050"
+          },
+          "invalid": {
+            "color": "#A01818"
+          }
+        },
+        "terminal.background": "#0C0B0A",
+        "terminal.foreground": "#E0D8C8",
+        "terminal.ansi.black": "#585048",
+        "terminal.ansi.red": "#CC2020",
+        "terminal.ansi.green": "#98C860",
+        "terminal.ansi.yellow": "#D4A840",
+        "terminal.ansi.blue": "#78A8D8",
+        "terminal.ansi.magenta": "#A880C0",
+        "terminal.ansi.cyan": "#60B8A8",
+        "terminal.ansi.white": "#E0D8C8",
+        "terminal.ansi.bright_black": "#786860",
+        "terminal.ansi.bright_red": "#E04040",
+        "terminal.ansi.bright_green": "#B8DC80",
+        "terminal.ansi.bright_yellow": "#E8C060",
+        "terminal.ansi.bright_blue": "#98C0E8",
+        "terminal.ansi.bright_magenta": "#C0A0D8",
+        "terminal.ansi.bright_cyan": "#88D0C0",
+        "terminal.ansi.bright_white": "#F8F0E0"
+      }
+    }
+  ]
+}
