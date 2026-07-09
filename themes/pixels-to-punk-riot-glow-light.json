@@ -42,7 +42,7 @@
         "element.selected": "#007B9840",
         "element.disabled": "#F0DEFA",
         "ghost_element.hover": "#007B9818",
-        "ghost_element.active": "#007B984A",
+        "ghost_element.active": "#007B984a",
         "ghost_element.selected": "#007B9835",
         "text.muted": "#604C72",
         "text.placeholder": "#735F86",
@@ -135,7 +135,7 @@
             "color": "#554363"
           },
           "invalid": {
-            "color": "#D82045"
+            "color": "#FFFFFF"
           }
         }
       }

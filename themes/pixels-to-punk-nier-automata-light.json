@@ -119,24 +119,24 @@
             "color": "#A01818"
           }
         },
-        "terminal.background": "#0C0B0A",
-        "terminal.foreground": "#E0D8C8",
-        "terminal.ansi.black": "#585048",
-        "terminal.ansi.red": "#CC2020",
-        "terminal.ansi.green": "#98C860",
-        "terminal.ansi.yellow": "#D4A840",
-        "terminal.ansi.blue": "#78A8D8",
-        "terminal.ansi.magenta": "#A880C0",
-        "terminal.ansi.cyan": "#60B8A8",
-        "terminal.ansi.white": "#E0D8C8",
-        "terminal.ansi.bright_black": "#786860",
-        "terminal.ansi.bright_red": "#E04040",
-        "terminal.ansi.bright_green": "#B8DC80",
-        "terminal.ansi.bright_yellow": "#E8C060",
-        "terminal.ansi.bright_blue": "#98C0E8",
-        "terminal.ansi.bright_magenta": "#C0A0D8",
-        "terminal.ansi.bright_cyan": "#88D0C0",
-        "terminal.ansi.bright_white": "#F8F0E0"
+        "terminal.background": "#f5f0e8",
+        "terminal.foreground": "#201810",
+        "terminal.ansi.black": "#201810",
+        "terminal.ansi.red": "#a01818",
+        "terminal.ansi.green": "#417b1d",
+        "terminal.ansi.yellow": "#88691e",
+        "terminal.ansi.blue": "#2060a8",
+        "terminal.ansi.magenta": "#804098",
+        "terminal.ansi.cyan": "#1f7a73",
+        "terminal.ansi.white": "#706d6a",
+        "terminal.ansi.bright_black": "#756d5f",
+        "terminal.ansi.bright_red": "#b02020",
+        "terminal.ansi.bright_green": "#477a27",
+        "terminal.ansi.bright_yellow": "#856a28",
+        "terminal.ansi.bright_blue": "#306fb7",
+        "terminal.ansi.bright_magenta": "#9050a8",
+        "terminal.ansi.bright_cyan": "#287973",
+        "terminal.ansi.bright_white": "#6d6d6d"
       }
     }
   ]
