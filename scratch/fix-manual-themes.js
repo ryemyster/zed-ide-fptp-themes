@@ -14,16 +14,17 @@ files.forEach(file => {
     const style = theme.style || {};
 
     if (name === 'Pixels to Punk Brand Dark') {
-      style['terminal.ansi.black'] = '#1a0a2e';
-      style['terminal.ansi.bright_black'] = '#6a5acd';
+      style['terminal.ansi.black'] = '#827a8d';
+      style['terminal.ansi.blue'] = '#4454ff';
+      style['terminal.ansi.bright_black'] = '#7d6fd3';
       modified = true;
     } else if (name === 'Pixels to Punk Brand Light') {
       style['terminal.ansi.white'] = '#706e74';
       style['terminal.ansi.bright_white'] = '#6e6e6e';
       modified = true;
     } else if (name === 'Pixels to Punk NieR: Automata') {
-      style['terminal.ansi.black'] = '#0c0b0a';
-      style['terminal.ansi.bright_black'] = '#504840';
+      style['terminal.ansi.black'] = '#797978';
+      style['terminal.ansi.bright_black'] = '#7e7872';
       modified = true;
     } else if (name === 'Pixels to Punk NieR: Automata Light') {
       style['terminal.background'] = '#f5f0e8';
@@ -46,8 +47,8 @@ files.forEach(file => {
       style['terminal.ansi.bright_white'] = '#6d6d6d';
       modified = true;
     } else if (name === 'Pixels to Punk Stellar Blade') {
-      style['terminal.ansi.black'] = '#09090f';
-      style['terminal.ansi.bright_black'] = '#383a50';
+      style['terminal.ansi.black'] = '#78787b';
+      style['terminal.ansi.bright_black'] = '#767887';
       modified = true;
     } else if (name === 'Pixels to Punk Stellar Blade Light') {
       style['terminal.background'] = '#f7f2fc';
@@ -70,8 +71,8 @@ files.forEach(file => {
       style['terminal.ansi.bright_white'] = '#6f6f6f';
       modified = true;
     } else if (name === 'Pixels to Punk Tales of Arise') {
-      style['terminal.ansi.black'] = '#0a0d14';
-      style['terminal.ansi.bright_black'] = '#3e3850';
+      style['terminal.ansi.black'] = '#787a7d';
+      style['terminal.ansi.bright_black'] = '#7c7888';
       modified = true;
     } else if (name === 'Pixels to Punk HAGANE Day Shift') {
       style['terminal.ansi.black'] = '#1a2035';

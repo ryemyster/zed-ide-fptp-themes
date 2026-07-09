@@ -1,7 +1,7 @@
 schema_version = 1
 id = "fptp-themes"
 name = "Pixels to Punk Themes"
-description = "59 vibrant cyberpunk and anime-inspired color themes"
+description = "79 vibrant cyberpunk, low-glare, and high-contrast color themes"
 version = "1.5.0"
 repository = "https://github.com/ryemyster/zed-themes"
 authors = ["Ryan McDonald"]

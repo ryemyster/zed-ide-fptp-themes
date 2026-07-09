@@ -5,7 +5,8 @@ const VSCODE_THEMES_DIR =
   "/Users/rmcdonald/Repos/ryemyster/vscode-themes-vibecoded/themes";
 const OUTPUT_DIR = "/Users/rmcdonald/Repos/ryemyster/zed-themes/themes";
 const SCHEMA_URL = "https://zed.dev/schema/themes/v0.2.0.json";
-const MIN_TERMINAL_CONTRAST = 4.5;
+const MIN_TERMINAL_NEUTRAL_CONTRAST = 4.5;
+const MIN_TERMINAL_COLOR_CONTRAST = 3.5;
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -68,9 +69,9 @@ function mixColors(color, target, amount) {
   return toHexColor(rgb.map((value, index) => value + (targetRgb[index] - value) * amount));
 }
 
-function ensureTerminalContrast(color, background) {
+function ensureTerminalContrast(color, background, minContrast = MIN_TERMINAL_COLOR_CONTRAST) {
   const ratio = contrastRatio(color, background);
-  if (ratio === null || ratio >= MIN_TERMINAL_CONTRAST) return color;
+  if (ratio === null || ratio >= minContrast) return color;
 
   const blackContrast = contrastRatio("#000000", background);
   const whiteContrast = contrastRatio("#FFFFFF", background);
@@ -80,7 +81,7 @@ function ensureTerminalContrast(color, background) {
 
   for (let iteration = 0; iteration < 12; iteration++) {
     const midpoint = (low + high) / 2;
-    if (contrastRatio(mixColors(color, target, midpoint), background) >= MIN_TERMINAL_CONTRAST) {
+    if (contrastRatio(mixColors(color, target, midpoint), background) >= minContrast) {
       high = midpoint;
     } else {
       low = midpoint;
@@ -88,6 +89,17 @@ function ensureTerminalContrast(color, background) {
   }
 
   return mixColors(color, target, high);
+}
+
+function terminalNeutralColor(colors, isDark, fallback) {
+  return (
+    colors["terminal.ansiBrightBlack"] ||
+    colors["descriptionForeground"] ||
+    colors["editorLineNumber.foreground"] ||
+    colors["terminal.foreground"] ||
+    fallback ||
+    (isDark ? "#8A8A8A" : "#666666")
+  );
 }
 
 // Maps VSCode tokenColor scopes to Zed syntax token names
@@ -226,28 +238,41 @@ function convertTheme(vscodeTheme) {
 
   // Terminal
   const terminalBackground = colors["terminal.background"] || bg;
-  const setTerminalColor = (key, color) => {
-    set(key, ensureTerminalContrast(color, terminalBackground));
+  const setTerminalColor = (key, color, minContrast = MIN_TERMINAL_COLOR_CONTRAST) => {
+    set(key, ensureTerminalContrast(color, terminalBackground, minContrast));
   };
+  const setTerminalNeutralColor = (key, color) => {
+    setTerminalColor(key, color, MIN_TERMINAL_NEUTRAL_CONTRAST);
+  };
+  const terminalNeutral = terminalNeutralColor(colors, isDark, fg);
 
   set("terminal.background", terminalBackground);
-  setTerminalColor("terminal.foreground", colors["terminal.foreground"] || fg);
-  setTerminalColor("terminal.ansi.black", colors["terminal.ansiBlack"]);
+  setTerminalNeutralColor("terminal.foreground", colors["terminal.foreground"] || fg);
+  setTerminalNeutralColor(
+    "terminal.ansi.black",
+    isDark ? terminalNeutral : colors["terminal.ansiBlack"]
+  );
   setTerminalColor("terminal.ansi.red", colors["terminal.ansiRed"]);
   setTerminalColor("terminal.ansi.green", colors["terminal.ansiGreen"]);
   setTerminalColor("terminal.ansi.yellow", colors["terminal.ansiYellow"]);
   setTerminalColor("terminal.ansi.blue", colors["terminal.ansiBlue"]);
   setTerminalColor("terminal.ansi.magenta", colors["terminal.ansiMagenta"]);
   setTerminalColor("terminal.ansi.cyan", colors["terminal.ansiCyan"]);
-  setTerminalColor("terminal.ansi.white", colors["terminal.ansiWhite"]);
-  setTerminalColor("terminal.ansi.bright_black", colors["terminal.ansiBrightBlack"]);
+  setTerminalNeutralColor(
+    "terminal.ansi.white",
+    isDark ? colors["terminal.ansiWhite"] : colors["terminal.foreground"] || fg
+  );
+  setTerminalNeutralColor("terminal.ansi.bright_black", terminalNeutral);
   setTerminalColor("terminal.ansi.bright_red", colors["terminal.ansiBrightRed"]);
   setTerminalColor("terminal.ansi.bright_green", colors["terminal.ansiBrightGreen"]);
   setTerminalColor("terminal.ansi.bright_yellow", colors["terminal.ansiBrightYellow"]);
   setTerminalColor("terminal.ansi.bright_blue", colors["terminal.ansiBrightBlue"]);
   setTerminalColor("terminal.ansi.bright_magenta", colors["terminal.ansiBrightMagenta"]);
   setTerminalColor("terminal.ansi.bright_cyan", colors["terminal.ansiBrightCyan"]);
-  setTerminalColor("terminal.ansi.bright_white", colors["terminal.ansiBrightWhite"]);
+  setTerminalNeutralColor(
+    "terminal.ansi.bright_white",
+    isDark ? colors["terminal.ansiBrightWhite"] : terminalNeutral
+  );
 
   // Players: cursor and selection colors
   style.players = [

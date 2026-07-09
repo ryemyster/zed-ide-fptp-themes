@@ -7,7 +7,7 @@ zed-themes/
 ├── extension.toml          # Extension metadata
 ├── package.json            # Node dependencies
 ├── convert.js              # Conversion script (VSCode → Zed)
-├── themes/                 # Generated Zed theme files (50 themes)
+├── themes/                 # Generated and curated Zed theme files (79 themes)
 ├── README.md               # User documentation
 ├── LICENSE                 # MIT License
 └── DEVELOPMENT.md          # This file

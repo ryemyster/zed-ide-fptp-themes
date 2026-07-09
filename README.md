@@ -2,15 +2,16 @@
 
 **Beautiful color themes for your code editor.**
 
-Think of themes like choosing the "look and feel" of your code editor — like picking a color scheme or background for your phone. These 50 themes change the colors you see while writing code, making it more fun and easier on your eyes.
+Think of themes like choosing the "look and feel" of your code editor — like picking a color scheme or background for your phone. These 79 themes change the colors you see while writing code, making it more fun and easier on your eyes.
 
 ## What Themes Are Included?
 
-50 themes organized by style:
+79 themes organized by style:
 
 - **Dark Themes** - Better for coding at night
 - **Light Themes** - Better for daytime work
 - **Low-Glare Themes** - Easier on your eyes (especially with glasses)
+- **High-Contrast Themes** - Stronger readability for text-heavy work
 - **Fun & Colorful** - Neon, arcade, anime, and cyberpunk inspired
 - **Calm & Neutral** - Soft colors, less intense
 
