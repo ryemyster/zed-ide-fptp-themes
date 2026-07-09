@@ -42,7 +42,7 @@
         "element.selected": "#00D5C840",
         "element.disabled": "#14343F",
         "ghost_element.hover": "#00D5C818",
-        "ghost_element.active": "#00D5C84A",
+        "ghost_element.active": "#00D5C84a",
         "ghost_element.selected": "#00D5C835",
         "text.muted": "#AED0CD",
         "text.placeholder": "#80A7A7",
@@ -67,15 +67,15 @@
         "scrollbar.track.border": "#081B24",
         "terminal.background": "#081B24",
         "terminal.foreground": "#EFFFFC",
-        "terminal.ansi.black": "#8A969B",
+        "terminal.ansi.black": "#081B24",
         "terminal.ansi.red": "#FF5D70",
-        "terminal.ansi.green": "#00E005",
+        "terminal.ansi.green": "#00D5C8",
         "terminal.ansi.yellow": "#FFE66D",
         "terminal.ansi.blue": "#6ED6FF",
         "terminal.ansi.magenta": "#FF5A8A",
         "terminal.ansi.cyan": "#00D5C8",
         "terminal.ansi.white": "#EFFFFC",
-        "terminal.ansi.bright_black": "#789EA2",
+        "terminal.ansi.bright_black": "#6F9296",
         "terminal.ansi.bright_red": "#FF7B8B",
         "terminal.ansi.bright_green": "#66EEE5",
         "terminal.ansi.bright_yellow": "#FFEF98",
@@ -135,7 +135,7 @@
             "color": "#BFE0DD"
           },
           "invalid": {
-            "color": "#FF5D70"
+            "color": "#FFFFFF"
           }
         }
       }

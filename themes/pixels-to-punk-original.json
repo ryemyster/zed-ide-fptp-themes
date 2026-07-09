@@ -42,7 +42,7 @@
         "element.selected": "#2FD7F040",
         "element.disabled": "#20294E",
         "ghost_element.hover": "#2FD7F018",
-        "ghost_element.active": "#2FD7F04A",
+        "ghost_element.active": "#2FD7F04a",
         "ghost_element.selected": "#2FD7F035",
         "text.muted": "#A29BA8",
         "text.placeholder": "#8B86A4",
@@ -67,17 +67,17 @@
         "scrollbar.track.border": "#131B2D",
         "terminal.background": "#131B2D",
         "terminal.foreground": "#F5F5F6",
-        "terminal.ansi.black": "#A0A6B2",
+        "terminal.ansi.black": "#131B2D",
         "terminal.ansi.red": "#dd507b",
-        "terminal.ansi.green": "#2FF058",
+        "terminal.ansi.green": "#2FD7F0",
         "terminal.ansi.yellow": "#FF7A5F",
         "terminal.ansi.blue": "#6484b4",
         "terminal.ansi.magenta": "#E051A2",
         "terminal.ansi.cyan": "#2FD7F0",
         "terminal.ansi.white": "#F5F5F6",
-        "terminal.ansi.bright_black": "#A2A1C5",
+        "terminal.ansi.bright_black": "#7A7897",
         "terminal.ansi.bright_red": "#F07178",
-        "terminal.ansi.bright_green": "#57F378",
+        "terminal.ansi.bright_green": "#2FD7F0",
         "terminal.ansi.bright_yellow": "#FF9A78",
         "terminal.ansi.bright_blue": "#5484c8",
         "terminal.ansi.bright_magenta": "#F47ABE",
@@ -92,7 +92,7 @@
         ],
         "syntax": {
           "comment": {
-            "color": "#83819C",
+            "color": "#817F9A",
             "font_style": "italic"
           },
           "string": {
@@ -123,19 +123,19 @@
             "color": "#D86C7E"
           },
           "type": {
-            "color": "#8D73D6"
+            "color": "#625094"
           },
           "attribute": {
-            "color": "#3E83E6"
+            "color": "#295697"
           },
           "property": {
-            "color": "#3E83E6"
+            "color": "#295697"
           },
           "punctuation": {
             "color": "#B9B6C4"
           },
           "invalid": {
-            "color": "#EE3B73"
+            "color": "#FFFFFF"
           }
         }
       }

@@ -178,15 +178,18 @@ function convertTheme(vscodeTheme) {
   set("border.selected", colors["focusBorder"]);
   set("border.variant", colors["editorGroup.border"]);
 
+  const accentColor = colors["list.highlightForeground"] || colors["focusBorder"] || fg;
+  const baseAccent = accentColor.startsWith("#") ? accentColor.slice(0, 7) : accentColor;
+
   // Elements (list/tree items)
   set("element.background", colors["list.hoverBackground"]);
-  set("element.hover", colors["list.hoverBackground"]);
-  set("element.active", colors["list.activeSelectionBackground"]);
-  set("element.selected", colors["list.activeSelectionBackground"]);
+  set("element.hover", `${baseAccent}22`);
+  set("element.active", `${baseAccent}55`);
+  set("element.selected", `${baseAccent}40`);
   set("element.disabled", colors["list.inactiveSelectionBackground"]);
-  set("ghost_element.hover", colors["list.hoverBackground"]);
-  set("ghost_element.active", colors["list.activeSelectionBackground"]);
-  set("ghost_element.selected", colors["list.inactiveSelectionBackground"]);
+  set("ghost_element.hover", `${baseAccent}18`);
+  set("ghost_element.active", `${baseAccent}4a`);
+  set("ghost_element.selected", `${baseAccent}35`);
 
   // Text
   set("text.muted", colors["descriptionForeground"]);
