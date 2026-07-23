@@ -1,92 +1,118 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const THEMES_DIR = path.resolve(__dirname, '../themes');
-const files = fs.readdirSync(THEMES_DIR).filter(f => f.endsWith('.json'));
+const THEMES_DIR = path.resolve(__dirname, "../themes");
+const MIN_TEXT_CONTRAST = 4.5;
+const MIN_UI_CONTRAST = 3;
 
-files.forEach(file => {
+function parseHexColor(color) {
+  const match = /^#([0-9a-f]{6})$/i.exec(color || "");
+  if (!match) return null;
+
+  const value = parseInt(match[1], 16);
+  return [(value >> 16) & 255, (value >> 8) & 255, value & 255];
+}
+
+function toHexColor(rgb) {
+  return `#${rgb.map((value) => Math.round(value).toString(16).padStart(2, "0")).join("")}`;
+}
+
+function relativeLuminance(color) {
+  const rgb = parseHexColor(color);
+  if (!rgb) return null;
+
+  return rgb
+    .map((value) => {
+      const channel = value / 255;
+      return channel <= 0.04045
+        ? channel / 12.92
+        : ((channel + 0.055) / 1.055) ** 2.4;
+    })
+    .reduce((sum, channel, index) => sum + channel * [0.2126, 0.7152, 0.0722][index], 0);
+}
+
+function contrastRatio(foreground, background) {
+  const foregroundLuminance = relativeLuminance(foreground);
+  const backgroundLuminance = relativeLuminance(background);
+  if (foregroundLuminance === null || backgroundLuminance === null) return null;
+
+  return (
+    (Math.max(foregroundLuminance, backgroundLuminance) + 0.05) /
+    (Math.min(foregroundLuminance, backgroundLuminance) + 0.05)
+  );
+}
+
+function mixColors(color, target, amount) {
+  const rgb = parseHexColor(color);
+  const targetRgb = parseHexColor(target);
+  if (!rgb || !targetRgb) return color;
+
+  return toHexColor(rgb.map((value, index) => value + (targetRgb[index] - value) * amount));
+}
+
+function ensureContrast(color, background, minContrast) {
+  const ratio = contrastRatio(color, background);
+  if (ratio === null || ratio >= minContrast) return color;
+
+  const target = contrastRatio("#000000", background) > contrastRatio("#FFFFFF", background)
+    ? "#000000"
+    : "#FFFFFF";
+  let low = 0;
+  let high = 1;
+
+  for (let iteration = 0; iteration < 12; iteration++) {
+    const midpoint = (low + high) / 2;
+    if (contrastRatio(mixColors(color, target, midpoint), background) >= minContrast) {
+      high = midpoint;
+    } else {
+      low = midpoint;
+    }
+  }
+
+  return mixColors(color, target, high);
+}
+
+function ensureStyleContrast(style, key, backgroundKey, minContrast) {
+  const color = style[key];
+  const background = style[backgroundKey];
+  if (!color || !background) return;
+
+  const adjusted = ensureContrast(color.slice(0, 7), background.slice(0, 7), minContrast);
+  style[key] = color.length > 7 ? `${adjusted}${color.slice(7)}` : adjusted;
+}
+
+for (const file of fs.readdirSync(THEMES_DIR).filter((entry) => entry.endsWith(".json"))) {
   const filepath = path.join(THEMES_DIR, file);
-  const data = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+  const data = JSON.parse(fs.readFileSync(filepath, "utf8"));
   let modified = false;
 
-  data.themes.forEach(theme => {
-    const name = theme.name;
+  for (const theme of data.themes || []) {
     const style = theme.style || {};
+    const before = JSON.stringify(style);
 
-    if (name === 'Pixels to Punk Brand Dark') {
-      style['terminal.ansi.black'] = '#827a8d';
-      style['terminal.ansi.blue'] = '#4454ff';
-      style['terminal.ansi.bright_black'] = '#7d6fd3';
-      modified = true;
-    } else if (name === 'Pixels to Punk Brand Light') {
-      style['terminal.ansi.white'] = '#706e74';
-      style['terminal.ansi.bright_white'] = '#6e6e6e';
-      modified = true;
-    } else if (name === 'Pixels to Punk NieR: Automata') {
-      style['terminal.ansi.black'] = '#797978';
-      style['terminal.ansi.bright_black'] = '#7e7872';
-      modified = true;
-    } else if (name === 'Pixels to Punk NieR: Automata Light') {
-      style['terminal.background'] = '#f5f0e8';
-      style['terminal.foreground'] = '#201810';
-      style['terminal.ansi.black'] = '#201810';
-      style['terminal.ansi.red'] = '#a01818';
-      style['terminal.ansi.green'] = '#488820';
-      style['terminal.ansi.yellow'] = '#907020';
-      style['terminal.ansi.blue'] = '#2060a8';
-      style['terminal.ansi.magenta'] = '#804098';
-      style['terminal.ansi.cyan'] = '#208078';
-      style['terminal.ansi.white'] = '#706d6a';
-      style['terminal.ansi.bright_black'] = '#8a8070';
-      style['terminal.ansi.bright_red'] = '#b02020';
-      style['terminal.ansi.bright_green'] = '#589830';
-      style['terminal.ansi.bright_yellow'] = '#a08030';
-      style['terminal.ansi.bright_blue'] = '#3070b8';
-      style['terminal.ansi.bright_magenta'] = '#9050a8';
-      style['terminal.ansi.bright_cyan'] = '#309088';
-      style['terminal.ansi.bright_white'] = '#6d6d6d';
-      modified = true;
-    } else if (name === 'Pixels to Punk Stellar Blade') {
-      style['terminal.ansi.black'] = '#78787b';
-      style['terminal.ansi.bright_black'] = '#767887';
-      modified = true;
-    } else if (name === 'Pixels to Punk Stellar Blade Light') {
-      style['terminal.background'] = '#f7f2fc';
-      style['terminal.foreground'] = '#1a1824';
-      style['terminal.ansi.black'] = '#1a1824';
-      style['terminal.ansi.red'] = '#d82246';
-      style['terminal.ansi.green'] = '#1da880';
-      style['terminal.ansi.yellow'] = '#c88424';
-      style['terminal.ansi.blue'] = '#3e60c8';
-      style['terminal.ansi.magenta'] = '#c81d60';
-      style['terminal.ansi.cyan'] = '#009cb5';
-      style['terminal.ansi.white'] = '#716f74';
-      style['terminal.ansi.bright_black'] = '#847c9c';
-      style['terminal.ansi.bright_red'] = '#e83256';
-      style['terminal.ansi.bright_green'] = '#2db890';
-      style['terminal.ansi.bright_yellow'] = '#d89434';
-      style['terminal.ansi.bright_blue'] = '#4e70d8';
-      style['terminal.ansi.bright_magenta'] = '#d82d70';
-      style['terminal.ansi.bright_cyan'] = '#10acc5';
-      style['terminal.ansi.bright_white'] = '#6f6f6f';
-      modified = true;
-    } else if (name === 'Pixels to Punk Tales of Arise') {
-      style['terminal.ansi.black'] = '#787a7d';
-      style['terminal.ansi.bright_black'] = '#7c7888';
-      modified = true;
-    } else if (name === 'Pixels to Punk HAGANE Day Shift') {
-      style['terminal.ansi.black'] = '#1a2035';
-      style['terminal.ansi.bright_black'] = '#505a70';
-      modified = true;
-    } else if (name === 'Pixels to Punk Light') {
-      style['terminal.ansi.white'] = '#6f7075';
-      style['terminal.ansi.bright_white'] = '#707070';
-      modified = true;
+    [
+      ["editor.foreground", "editor.background", MIN_TEXT_CONTRAST],
+      ["text", "background", MIN_TEXT_CONTRAST],
+      ["text.muted", "background", MIN_TEXT_CONTRAST],
+      ["text.placeholder", "background", MIN_TEXT_CONTRAST],
+      ["text.accent", "background", MIN_TEXT_CONTRAST],
+      ["editor.line_number", "editor.background", MIN_UI_CONTRAST],
+      ["editor.active_line_number", "editor.background", MIN_TEXT_CONTRAST],
+      ["icon.muted", "background", MIN_UI_CONTRAST],
+      ["terminal.foreground", "terminal.background", MIN_TEXT_CONTRAST],
+    ].forEach(([key, backgroundKey, minContrast]) => {
+      ensureStyleContrast(style, key, backgroundKey, minContrast);
+    });
+
+    for (const key of Object.keys(style).filter((entry) => entry.startsWith("terminal.ansi."))) {
+      ensureStyleContrast(style, key, "terminal.background", MIN_TEXT_CONTRAST);
     }
-  });
+
+    if (JSON.stringify(style) !== before) modified = true;
+  }
 
   if (modified) {
-    fs.writeFileSync(filepath, JSON.stringify(data, null, 2) + '\n');
-    console.log(`✓ Fixed manual theme: ${file}`);
+    fs.writeFileSync(filepath, `${JSON.stringify(data, null, 2)}\n`);
+    console.log(`fixed ${file}`);
   }
-});
+}
