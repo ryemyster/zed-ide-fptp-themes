@@ -69,7 +69,7 @@
         "terminal.foreground": "#2B241B",
         "terminal.ansi.black": "#2b241b",
         "terminal.ansi.red": "#90393d",
-        "terminal.ansi.green": "#566638",
+        "terminal.ansi.green": "#46522d",
         "terminal.ansi.yellow": "#785728",
         "terminal.ansi.blue": "#485b6d",
         "terminal.ansi.magenta": "#884854",
@@ -77,12 +77,12 @@
         "terminal.ansi.white": "#2b241b",
         "terminal.ansi.bright_black": "#685c4a",
         "terminal.ansi.bright_red": "#90393d",
-        "terminal.ansi.bright_green": "#566638",
+        "terminal.ansi.bright_green": "#46522d",
         "terminal.ansi.bright_yellow": "#785728",
         "terminal.ansi.bright_blue": "#485b6d",
         "terminal.ansi.bright_magenta": "#884854",
         "terminal.ansi.bright_cyan": "#3e635c",
-        "terminal.ansi.bright_white": "#685c4a",
+        "terminal.ansi.bright_white": "#2b241b",
         "players": [
           {
             "cursor": "#426F68",

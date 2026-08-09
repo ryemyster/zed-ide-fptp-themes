@@ -7,12 +7,12 @@
       "name": "Pixels to Punk Matcha Notebook for Those with Glasses",
       "appearance": "light",
       "style": {
-        "background": "#F2F5EC",
-        "text": "#202B32",
+        "background": "#EDF2E3",
+        "text": "#202B28",
         "editor.background": "#F2F5EC",
         "editor.foreground": "#202B32",
         "editor.line_number": "#62717B",
-        "editor.active_line_number": "#006C72",
+        "editor.active_line_number": "#4F6B2B",
         "editor.active_line.background": "#E7EDE0",
         "editor.gutter.background": "#F2F5EC",
         "editor.indent_guide": "#CFDBC8",
@@ -20,11 +20,11 @@
         "editor.document_highlight.read_background": "#006C722E",
         "editor.document_highlight.write_background": "#8E3B6826",
         "search.match_background": "#CAB75F5C",
-        "error": "#A83A4C",
-        "warning": "#725F12",
-        "info": "#006C72",
+        "error": "#A52C4D",
+        "warning": "#705B00",
+        "info": "#3E6B52",
         "hint": "#006C72",
-        "success": "#33704A",
+        "success": "#3E6B3E",
         "created": "#33704A",
         "deleted": "#A83A4C",
         "modified": "#725F12",
@@ -46,7 +46,7 @@
         "ghost_element.selected": "#006C7235",
         "text.muted": "#53616B",
         "text.placeholder": "#62717B",
-        "text.accent": "#006C72",
+        "text.accent": "#4F6B2B",
         "icon.muted": "#62717B",
         "surface.background": "#E0E8D9",
         "panel.background": "#E0E8D9",
@@ -68,21 +68,21 @@
         "terminal.background": "#F2F5EC",
         "terminal.foreground": "#202B32",
         "terminal.ansi.black": "#202b32",
-        "terminal.ansi.red": "#923848",
-        "terminal.ansi.green": "#306546",
-        "terminal.ansi.yellow": "#655717",
-        "terminal.ansi.blue": "#2e577f",
-        "terminal.ansi.magenta": "#7c385f",
-        "terminal.ansi.cyan": "#056268",
+        "terminal.ansi.red": "#a52c4d",
+        "terminal.ansi.green": "#3e6b3e",
+        "terminal.ansi.yellow": "#705b00",
+        "terminal.ansi.blue": "#315f78",
+        "terminal.ansi.magenta": "#7a3e67",
+        "terminal.ansi.cyan": "#3e6b52",
         "terminal.ansi.white": "#202b32",
         "terminal.ansi.bright_black": "#57666f",
-        "terminal.ansi.bright_red": "#a65562",
-        "terminal.ansi.bright_green": "#3d7b54",
-        "terminal.ansi.bright_yellow": "#7c6a2d",
-        "terminal.ansi.bright_blue": "#456d98",
-        "terminal.ansi.bright_magenta": "#934e79",
-        "terminal.ansi.bright_cyan": "#057a82",
-        "terminal.ansi.bright_white": "#57666f",
+        "terminal.ansi.bright_red": "#8f243f",
+        "terminal.ansi.bright_green": "#2e542e",
+        "terminal.ansi.bright_yellow": "#604b00",
+        "terminal.ansi.bright_blue": "#284d62",
+        "terminal.ansi.bright_magenta": "#612f51",
+        "terminal.ansi.bright_cyan": "#2e513e",
+        "terminal.ansi.bright_white": "#202b32",
         "players": [
           {
             "cursor": "#006C72",
@@ -96,13 +96,13 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#33704A"
+            "color": "#3E6B3E"
           },
           "title": {
             "color": "#33704A"
           },
           "number": {
-            "color": "#725F12"
+            "color": "#705B00"
           },
           "boolean": {
             "color": "#725F12"
@@ -111,10 +111,10 @@
             "color": "#725F12"
           },
           "keyword": {
-            "color": "#8E3B68"
+            "color": "#7A3E67"
           },
           "function": {
-            "color": "#006C72"
+            "color": "#3E6B52"
           },
           "variable": {
             "color": "#202B32"

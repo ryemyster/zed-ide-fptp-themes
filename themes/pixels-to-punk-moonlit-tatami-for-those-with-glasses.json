@@ -7,12 +7,12 @@
       "name": "Pixels to Punk Moonlit Tatami for Those with Glasses",
       "appearance": "dark",
       "style": {
-        "background": "#151C1A",
-        "text": "#E5EEE9",
+        "background": "#12201C",
+        "text": "#EAF5EE",
         "editor.background": "#151C1A",
         "editor.foreground": "#E5EEE9",
         "editor.line_number": "#8B9D94",
-        "editor.active_line_number": "#72C9D0",
+        "editor.active_line_number": "#7ED6D0",
         "editor.active_line.background": "#222D29",
         "editor.gutter.background": "#151C1A",
         "editor.indent_guide": "#40564D",
@@ -20,11 +20,11 @@
         "editor.document_highlight.read_background": "#72C9D030",
         "editor.document_highlight.write_background": "#D083AD2C",
         "search.match_background": "#D5BC7850",
-        "error": "#E87C8A",
-        "warning": "#D5BC78",
-        "info": "#72C9D0",
+        "error": "#E98993",
+        "warning": "#DDBB6A",
+        "info": "#7ED6D0",
         "hint": "#72C9D0",
-        "success": "#95CB9A",
+        "success": "#9BCB83",
         "created": "#95CB9A",
         "deleted": "#E87C8A",
         "modified": "#D5BC78",
@@ -46,7 +46,7 @@
         "ghost_element.selected": "#72C9D035",
         "text.muted": "#B1C0B8",
         "text.placeholder": "#91A49A",
-        "text.accent": "#72C9D0",
+        "text.accent": "#7ED6D0",
         "icon.muted": "#91A49A",
         "surface.background": "#202A26",
         "panel.background": "#202A26",
@@ -65,24 +65,24 @@
         "scrollbar.thumb.border": "#586D6366",
         "scrollbar.track.background": "#151C1A",
         "scrollbar.track.border": "#151C1A",
-        "terminal.background": "#151C1A",
-        "terminal.foreground": "#E5EEE9",
+        "terminal.background": "#12201C",
+        "terminal.foreground": "#EAF5EE",
         "terminal.ansi.black": "#99aaa2",
-        "terminal.ansi.red": "#e88e99",
-        "terminal.ansi.green": "#a2d1a7",
-        "terminal.ansi.yellow": "#d8c48a",
-        "terminal.ansi.blue": "#99bee1",
-        "terminal.ansi.magenta": "#d394b7",
-        "terminal.ansi.cyan": "#84cfd4",
-        "terminal.ansi.white": "#e5eee9",
+        "terminal.ansi.red": "#e98993",
+        "terminal.ansi.green": "#9bcb83",
+        "terminal.ansi.yellow": "#ddbb6a",
+        "terminal.ansi.blue": "#85b8d8",
+        "terminal.ansi.magenta": "#d19ab7",
+        "terminal.ansi.cyan": "#7ed6d0",
+        "terminal.ansi.white": "#eaf5ee",
         "terminal.ansi.bright_black": "#99aaa2",
-        "terminal.ansi.bright_red": "#eda6ad",
-        "terminal.ansi.bright_green": "#b7e0bb",
-        "terminal.ansi.bright_yellow": "#e1d1a2",
-        "terminal.ansi.bright_blue": "#afccea",
-        "terminal.ansi.bright_magenta": "#dfaaca",
-        "terminal.ansi.bright_cyan": "#a3e0e5",
-        "terminal.ansi.bright_white": "#f5faf7",
+        "terminal.ansi.bright_red": "#ffb4ba",
+        "terminal.ansi.bright_green": "#c7eaa9",
+        "terminal.ansi.bright_yellow": "#f1d994",
+        "terminal.ansi.bright_blue": "#abd1e8",
+        "terminal.ansi.bright_magenta": "#ebbad3",
+        "terminal.ansi.bright_cyan": "#abece7",
+        "terminal.ansi.bright_white": "#ffffff",
         "players": [
           {
             "cursor": "#80D3DA",
@@ -96,13 +96,13 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#95CB9A"
+            "color": "#9BCB83"
           },
           "title": {
             "color": "#95CB9A"
           },
           "number": {
-            "color": "#D5BC78"
+            "color": "#DDBB6A"
           },
           "boolean": {
             "color": "#D5BC78"
@@ -111,10 +111,10 @@
             "color": "#D5BC78"
           },
           "keyword": {
-            "color": "#D083AD"
+            "color": "#D19AB7"
           },
           "function": {
-            "color": "#72C9D0"
+            "color": "#7ED6D0"
           },
           "variable": {
             "color": "#E5EEE9"

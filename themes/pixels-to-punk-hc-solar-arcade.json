@@ -82,7 +82,7 @@
         "terminal.ansi.bright_blue": "#0442a3",
         "terminal.ansi.bright_magenta": "#7c0350",
         "terminal.ansi.bright_cyan": "#045360",
-        "terminal.ansi.bright_white": "#4f461a",
+        "terminal.ansi.bright_white": "#181400",
         "players": [
           {
             "cursor": "#005F72",

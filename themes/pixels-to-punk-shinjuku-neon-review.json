@@ -7,12 +7,12 @@
       "name": "Pixels to Punk Shinjuku Neon Review",
       "appearance": "dark",
       "style": {
-        "background": "#11131F",
-        "text": "#EEF2FA",
+        "background": "#160F24",
+        "text": "#F7EAF4",
         "editor.background": "#11131F",
         "editor.foreground": "#EEF2FA",
         "editor.line_number": "#8C96AC",
-        "editor.active_line_number": "#72D1DE",
+        "editor.active_line_number": "#FF4D9D",
         "editor.active_line.background": "#1D2236",
         "editor.gutter.background": "#11131F",
         "editor.indent_guide": "#3B4564",
@@ -20,11 +20,11 @@
         "editor.document_highlight.read_background": "#72D1DE33",
         "editor.document_highlight.write_background": "#E077BA30",
         "search.match_background": "#E7B16F55",
-        "error": "#F2768B",
-        "warning": "#E7B16F",
-        "info": "#72D1DE",
+        "error": "#FF5C7A",
+        "warning": "#FFC857",
+        "info": "#00D9FF",
         "hint": "#72D1DE",
-        "success": "#72D1DE",
+        "success": "#9BE564",
         "created": "#72D1DE",
         "deleted": "#F2768B",
         "modified": "#E7B16F",
@@ -46,7 +46,7 @@
         "ghost_element.selected": "#72D1DE35",
         "text.muted": "#B5BDD0",
         "text.placeholder": "#9099B0",
-        "text.accent": "#72D1DE",
+        "text.accent": "#FF4D9D",
         "icon.muted": "#9099B0",
         "surface.background": "#191D2F",
         "panel.background": "#191D2F",
@@ -65,24 +65,24 @@
         "scrollbar.thumb.border": "#535D8366",
         "scrollbar.track.background": "#11131F",
         "scrollbar.track.border": "#11131F",
-        "terminal.background": "#11131F",
-        "terminal.foreground": "#EEF2FA",
+        "terminal.background": "#160F24",
+        "terminal.foreground": "#F7EAF4",
         "terminal.ansi.black": "#9ca5b8",
-        "terminal.ansi.red": "#f18a9d",
-        "terminal.ansi.green": "#86d6e2",
-        "terminal.ansi.yellow": "#e8bb85",
-        "terminal.ansi.blue": "#a1c6f3",
-        "terminal.ansi.magenta": "#e28bc4",
-        "terminal.ansi.cyan": "#86d6e2",
-        "terminal.ansi.white": "#eef2fa",
+        "terminal.ansi.red": "#ff5c7a",
+        "terminal.ansi.green": "#9be564",
+        "terminal.ansi.yellow": "#ffc857",
+        "terminal.ansi.blue": "#6ea8fe",
+        "terminal.ansi.magenta": "#ff4d9d",
+        "terminal.ansi.cyan": "#00d9ff",
+        "terminal.ansi.white": "#f7eaf4",
         "terminal.ansi.bright_black": "#9ca5b8",
-        "terminal.ansi.bright_red": "#f4a8b4",
-        "terminal.ansi.bright_green": "#a3e5ee",
-        "terminal.ansi.bright_yellow": "#efca9d",
-        "terminal.ansi.bright_blue": "#b4d3f8",
-        "terminal.ansi.bright_magenta": "#ecaed7",
-        "terminal.ansi.bright_cyan": "#a3e5ee",
-        "terminal.ansi.bright_white": "#fcfdfe",
+        "terminal.ansi.bright_red": "#ff8aaa",
+        "terminal.ansi.bright_green": "#c5f58f",
+        "terminal.ansi.bright_yellow": "#ffe08a",
+        "terminal.ansi.bright_blue": "#a8c9ff",
+        "terminal.ansi.bright_magenta": "#ff91c2",
+        "terminal.ansi.bright_cyan": "#73edff",
+        "terminal.ansi.bright_white": "#fff5fb",
         "players": [
           {
             "cursor": "#80DDE8",
@@ -96,13 +96,13 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#F08C92"
+            "color": "#9BE564"
           },
           "title": {
             "color": "#F08C92"
           },
           "number": {
-            "color": "#E7B16F"
+            "color": "#FFC857"
           },
           "boolean": {
             "color": "#E7B16F"
@@ -111,10 +111,10 @@
             "color": "#E7B16F"
           },
           "keyword": {
-            "color": "#E077BA"
+            "color": "#FF4D9D"
           },
           "function": {
-            "color": "#72D1DE"
+            "color": "#00D9FF"
           },
           "variable": {
             "color": "#EEF2FA"
@@ -123,7 +123,7 @@
             "color": "#DFA084"
           },
           "type": {
-            "color": "#B0A0F0"
+            "color": "#B18CFF"
           },
           "attribute": {
             "color": "#92BEF2"

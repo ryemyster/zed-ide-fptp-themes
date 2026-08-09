@@ -7,12 +7,12 @@
       "name": "Pixels to Punk Midnight Matsuri",
       "appearance": "dark",
       "style": {
-        "background": "#171220",
-        "text": "#F2EEF8",
+        "background": "#211526",
+        "text": "#FAEFF7",
         "editor.background": "#171220",
         "editor.foreground": "#F2EEF8",
         "editor.line_number": "#968DA9",
-        "editor.active_line_number": "#75D1DC",
+        "editor.active_line_number": "#F3B562",
         "editor.active_line.background": "#251F35",
         "editor.gutter.background": "#171220",
         "editor.indent_guide": "#493F60",
@@ -20,11 +20,11 @@
         "editor.document_highlight.read_background": "#75D1DC33",
         "editor.document_highlight.write_background": "#E47ABB30",
         "search.match_background": "#E8B96F55",
-        "error": "#F37A8B",
-        "warning": "#E8B96F",
-        "info": "#75D1DC",
+        "error": "#F06A8A",
+        "warning": "#F3B562",
+        "info": "#79C7C8",
         "hint": "#75D1DC",
-        "success": "#75D1DC",
+        "success": "#A8C686",
         "created": "#75D1DC",
         "deleted": "#F37A8B",
         "modified": "#E8B96F",
@@ -46,7 +46,7 @@
         "ghost_element.selected": "#75D1DC35",
         "text.muted": "#C0B8CF",
         "text.placeholder": "#9D94B0",
-        "text.accent": "#75D1DC",
+        "text.accent": "#F3B562",
         "icon.muted": "#9D94B0",
         "surface.background": "#221B30",
         "panel.background": "#221B30",
@@ -65,24 +65,24 @@
         "scrollbar.thumb.border": "#65578366",
         "scrollbar.track.background": "#171220",
         "scrollbar.track.border": "#171220",
-        "terminal.background": "#171220",
-        "terminal.foreground": "#F2EEF8",
+        "terminal.background": "#211526",
+        "terminal.foreground": "#FAEFF7",
         "terminal.ansi.black": "#a59db6",
-        "terminal.ansi.red": "#f38d9c",
-        "terminal.ansi.green": "#89d6e0",
-        "terminal.ansi.yellow": "#eac185",
-        "terminal.ansi.blue": "#a3c4f0",
-        "terminal.ansi.magenta": "#e68dc5",
-        "terminal.ansi.cyan": "#89d6e0",
-        "terminal.ansi.white": "#f2eef8",
+        "terminal.ansi.red": "#f06a8a",
+        "terminal.ansi.green": "#a8c686",
+        "terminal.ansi.yellow": "#f3b562",
+        "terminal.ansi.blue": "#7aa2f7",
+        "terminal.ansi.magenta": "#d16ba5",
+        "terminal.ansi.cyan": "#79c7c8",
+        "terminal.ansi.white": "#faeff7",
         "terminal.ansi.bright_black": "#a59db6",
-        "terminal.ansi.bright_red": "#f5a9b4",
-        "terminal.ansi.bright_green": "#a6e4ed",
-        "terminal.ansi.bright_yellow": "#f0d09c",
-        "terminal.ansi.bright_blue": "#b7d1f7",
-        "terminal.ansi.bright_magenta": "#efb0d9",
-        "terminal.ansi.bright_cyan": "#a6e4ed",
-        "terminal.ansi.bright_white": "#fdfcfe",
+        "terminal.ansi.bright_red": "#ff9ab0",
+        "terminal.ansi.bright_green": "#d3e6a8",
+        "terminal.ansi.bright_yellow": "#ffdc95",
+        "terminal.ansi.bright_blue": "#a9c0ff",
+        "terminal.ansi.bright_magenta": "#e69ac4",
+        "terminal.ansi.bright_cyan": "#a9e4e2",
+        "terminal.ansi.bright_white": "#fff8fc",
         "players": [
           {
             "cursor": "#82DDE7",
@@ -96,13 +96,13 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#F28D87"
+            "color": "#A8C686"
           },
           "title": {
             "color": "#F28D87"
           },
           "number": {
-            "color": "#E8B96F"
+            "color": "#F3B562"
           },
           "boolean": {
             "color": "#E8B96F"
@@ -111,10 +111,10 @@
             "color": "#E8B96F"
           },
           "keyword": {
-            "color": "#E47ABB"
+            "color": "#D16BA5"
           },
           "function": {
-            "color": "#75D1DC"
+            "color": "#79C7C8"
           },
           "variable": {
             "color": "#F2EEF8"
@@ -123,7 +123,7 @@
             "color": "#DEA079"
           },
           "type": {
-            "color": "#B8A3F1"
+            "color": "#B69AE8"
           },
           "attribute": {
             "color": "#94BCEF"

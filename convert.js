@@ -277,25 +277,33 @@ function convertTheme(vscodeTheme) {
     isDark ? terminalNeutral : colors["terminal.ansiBlack"]
   );
   setTerminalColor("terminal.ansi.red", colors["terminal.ansiRed"]);
-  setTerminalColor("terminal.ansi.green", colors["terminal.ansiGreen"]);
+  setTerminalColor(
+    "terminal.ansi.green",
+    colors["terminal.ansiGreen"],
+    isDark ? MIN_TEXT_CONTRAST : 7
+  );
   setTerminalColor("terminal.ansi.yellow", colors["terminal.ansiYellow"]);
   setTerminalColor("terminal.ansi.blue", colors["terminal.ansiBlue"]);
   setTerminalColor("terminal.ansi.magenta", colors["terminal.ansiMagenta"]);
   setTerminalColor("terminal.ansi.cyan", colors["terminal.ansiCyan"]);
   setTerminalColor(
     "terminal.ansi.white",
-    isDark ? colors["terminal.ansiWhite"] : colors["terminal.foreground"] || fg
+    isDark ? colors["terminal.ansiWhite"] : terminalForeground
   );
   setTerminalColor("terminal.ansi.bright_black", terminalNeutral);
   setTerminalColor("terminal.ansi.bright_red", colors["terminal.ansiBrightRed"]);
-  setTerminalColor("terminal.ansi.bright_green", colors["terminal.ansiBrightGreen"]);
+  setTerminalColor(
+    "terminal.ansi.bright_green",
+    colors["terminal.ansiBrightGreen"],
+    isDark ? MIN_TEXT_CONTRAST : 7
+  );
   setTerminalColor("terminal.ansi.bright_yellow", colors["terminal.ansiBrightYellow"]);
   setTerminalColor("terminal.ansi.bright_blue", colors["terminal.ansiBrightBlue"]);
   setTerminalColor("terminal.ansi.bright_magenta", colors["terminal.ansiBrightMagenta"]);
   setTerminalColor("terminal.ansi.bright_cyan", colors["terminal.ansiBrightCyan"]);
   setTerminalColor(
     "terminal.ansi.bright_white",
-    isDark ? colors["terminal.ansiBrightWhite"] : terminalNeutral
+    isDark ? colors["terminal.ansiBrightWhite"] : terminalForeground
   );
 
   ensureStyleContrast(style, "text", "background");

@@ -7,12 +7,12 @@
       "name": "Pixels to Punk Indigo Alley for Those with Glasses",
       "appearance": "dark",
       "style": {
-        "background": "#151925",
-        "text": "#E6EAF3",
+        "background": "#11162C",
+        "text": "#EEF0FA",
         "editor.background": "#151925",
         "editor.foreground": "#E6EAF3",
         "editor.line_number": "#8A94A8",
-        "editor.active_line_number": "#74C8D5",
+        "editor.active_line_number": "#8B7CFF",
         "editor.active_line.background": "#20283B",
         "editor.gutter.background": "#151925",
         "editor.indent_guide": "#3E4964",
@@ -20,11 +20,11 @@
         "editor.document_highlight.read_background": "#74C8D530",
         "editor.document_highlight.write_background": "#CF86B72C",
         "search.match_background": "#D8BA7750",
-        "error": "#EA7D8E",
-        "warning": "#D8BA77",
-        "info": "#74C8D5",
+        "error": "#F47C8B",
+        "warning": "#F2C14E",
+        "info": "#69C7E8",
         "hint": "#74C8D5",
-        "success": "#8BCB9B",
+        "success": "#96C86F",
         "created": "#8BCB9B",
         "deleted": "#EA7D8E",
         "modified": "#D8BA77",
@@ -46,7 +46,7 @@
         "ghost_element.selected": "#74C8D535",
         "text.muted": "#B2B9C9",
         "text.placeholder": "#929BAE",
-        "text.accent": "#74C8D5",
+        "text.accent": "#8B7CFF",
         "icon.muted": "#929BAE",
         "surface.background": "#1E2536",
         "panel.background": "#1E2536",
@@ -65,24 +65,24 @@
         "scrollbar.thumb.border": "#5D6B8A66",
         "scrollbar.track.background": "#151925",
         "scrollbar.track.border": "#151925",
-        "terminal.background": "#151925",
-        "terminal.foreground": "#E6EAF3",
+        "terminal.background": "#11162C",
+        "terminal.foreground": "#EEF0FA",
         "terminal.ansi.black": "#99a2b4",
-        "terminal.ansi.red": "#e98e9e",
-        "terminal.ansi.green": "#9ad0a9",
-        "terminal.ansi.yellow": "#dac28b",
-        "terminal.ansi.blue": "#9bbde8",
-        "terminal.ansi.magenta": "#d396c1",
-        "terminal.ansi.cyan": "#86cdda",
-        "terminal.ansi.white": "#e6eaf3",
+        "terminal.ansi.red": "#f47c8b",
+        "terminal.ansi.green": "#96c86f",
+        "terminal.ansi.yellow": "#f2c14e",
+        "terminal.ansi.blue": "#7ca7ff",
+        "terminal.ansi.magenta": "#d47bc5",
+        "terminal.ansi.cyan": "#69c7e8",
+        "terminal.ansi.white": "#eef0fa",
         "terminal.ansi.bright_black": "#99a2b4",
-        "terminal.ansi.bright_red": "#eea7b2",
-        "terminal.ansi.bright_green": "#b1ddbc",
-        "terminal.ansi.bright_yellow": "#e3d0a3",
-        "terminal.ansi.bright_blue": "#b2ccef",
-        "terminal.ansi.bright_magenta": "#deacd0",
-        "terminal.ansi.bright_cyan": "#a4dfe8",
-        "terminal.ansi.bright_white": "#f6f7fd",
+        "terminal.ansi.bright_red": "#ffabb6",
+        "terminal.ansi.bright_green": "#b9e68e",
+        "terminal.ansi.bright_yellow": "#ffda7a",
+        "terminal.ansi.bright_blue": "#a9c4ff",
+        "terminal.ansi.bright_magenta": "#eda8de",
+        "terminal.ansi.bright_cyan": "#a5e7ff",
+        "terminal.ansi.bright_white": "#ffffff",
         "players": [
           {
             "cursor": "#82D4DE",
@@ -96,13 +96,13 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#8BCB9B"
+            "color": "#96C86F"
           },
           "title": {
             "color": "#8BCB9B"
           },
           "number": {
-            "color": "#D8BA77"
+            "color": "#F2C14E"
           },
           "boolean": {
             "color": "#D8BA77"
@@ -111,10 +111,10 @@
             "color": "#D8BA77"
           },
           "keyword": {
-            "color": "#CF86B7"
+            "color": "#D47BC5"
           },
           "function": {
-            "color": "#74C8D5"
+            "color": "#69C7E8"
           },
           "variable": {
             "color": "#E6EAF3"
@@ -123,7 +123,7 @@
             "color": "#D0A17A"
           },
           "type": {
-            "color": "#AAA1DF"
+            "color": "#B18CFF"
           },
           "attribute": {
             "color": "#8DB5E6"

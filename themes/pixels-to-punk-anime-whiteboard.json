@@ -7,12 +7,12 @@
       "name": "Pixels to Punk Anime Whiteboard",
       "appearance": "light",
       "style": {
-        "background": "#F9FBFF",
-        "text": "#1B2230",
+        "background": "#FFF7ED",
+        "text": "#241B2F",
         "editor.background": "#F9FBFF",
         "editor.foreground": "#1B2230",
         "editor.line_number": "#667286",
-        "editor.active_line_number": "#006A86",
+        "editor.active_line_number": "#A52C68",
         "editor.active_line.background": "#EDF4FF",
         "editor.gutter.background": "#F9FBFF",
         "editor.indent_guide": "#D4DEED",
@@ -20,11 +20,11 @@
         "editor.document_highlight.read_background": "#006A8630",
         "editor.document_highlight.write_background": "#A1267B28",
         "search.match_background": "#D4B75A66",
-        "error": "#B2304D",
-        "warning": "#785D00",
-        "info": "#006A86",
+        "error": "#A52C48",
+        "warning": "#7A5200",
+        "info": "#156E78",
         "hint": "#006A86",
-        "success": "#006A86",
+        "success": "#3A6B3F",
         "created": "#006A86",
         "deleted": "#B2304D",
         "modified": "#785D00",
@@ -46,7 +46,7 @@
         "ghost_element.selected": "#006A8635",
         "text.muted": "#505B6F",
         "text.placeholder": "#667286",
-        "text.accent": "#006A86",
+        "text.accent": "#A52C68",
         "icon.muted": "#667286",
         "surface.background": "#E7EEFB",
         "panel.background": "#E7EEFB",
@@ -65,24 +65,24 @@
         "scrollbar.thumb.border": "#8DA0BC55",
         "scrollbar.track.background": "#F9FBFF",
         "scrollbar.track.border": "#F9FBFF",
-        "terminal.background": "#F9FBFF",
-        "terminal.foreground": "#1B2230",
+        "terminal.background": "#FFF7ED",
+        "terminal.foreground": "#241B2F",
         "terminal.ansi.black": "#1b2230",
-        "terminal.ansi.red": "#9a2e48",
-        "terminal.ansi.green": "#045e78",
-        "terminal.ansi.yellow": "#695408",
-        "terminal.ansi.blue": "#2a568c",
-        "terminal.ansi.magenta": "#8c256f",
-        "terminal.ansi.cyan": "#045e78",
-        "terminal.ansi.white": "#1b2230",
+        "terminal.ansi.red": "#a52c48",
+        "terminal.ansi.green": "#3a6b3f",
+        "terminal.ansi.yellow": "#7a5200",
+        "terminal.ansi.blue": "#2f5f8f",
+        "terminal.ansi.magenta": "#8f2f6e",
+        "terminal.ansi.cyan": "#156e78",
+        "terminal.ansi.white": "#241b2f",
         "terminal.ansi.bright_black": "#5a6578",
-        "terminal.ansi.bright_red": "#ad4b5f",
-        "terminal.ansi.bright_green": "#047892",
-        "terminal.ansi.bright_yellow": "#816608",
-        "terminal.ansi.bright_blue": "#406da7",
-        "terminal.ansi.bright_magenta": "#9f4587",
-        "terminal.ansi.bright_cyan": "#047892",
-        "terminal.ansi.bright_white": "#5a6578",
+        "terminal.ansi.bright_red": "#8f243f",
+        "terminal.ansi.bright_green": "#2f5f34",
+        "terminal.ansi.bright_yellow": "#684400",
+        "terminal.ansi.bright_blue": "#244d78",
+        "terminal.ansi.bright_magenta": "#76245d",
+        "terminal.ansi.bright_cyan": "#0c5d66",
+        "terminal.ansi.bright_white": "#241b2f",
         "players": [
           {
             "cursor": "#006A86",
@@ -96,13 +96,13 @@
             "font_style": "italic"
           },
           "string": {
-            "color": "#974234"
+            "color": "#A52C48"
           },
           "title": {
             "color": "#974234"
           },
           "number": {
-            "color": "#785D00"
+            "color": "#7A5200"
           },
           "boolean": {
             "color": "#785D00"
@@ -111,10 +111,10 @@
             "color": "#785D00"
           },
           "keyword": {
-            "color": "#A1267B"
+            "color": "#8F2F6E"
           },
           "function": {
-            "color": "#006A86"
+            "color": "#156E78"
           },
           "variable": {
             "color": "#1B2230"

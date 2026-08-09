@@ -123,20 +123,20 @@
         "terminal.foreground": "#201810",
         "terminal.ansi.black": "#201810",
         "terminal.ansi.red": "#a01818",
-        "terminal.ansi.green": "#417b1d",
+        "terminal.ansi.green": "#275510",
         "terminal.ansi.yellow": "#88691e",
         "terminal.ansi.blue": "#2060a8",
         "terminal.ansi.magenta": "#804098",
         "terminal.ansi.cyan": "#1f7a73",
-        "terminal.ansi.white": "#706d6a",
+        "terminal.ansi.white": "#201810",
         "terminal.ansi.bright_black": "#756d5f",
         "terminal.ansi.bright_red": "#b02020",
-        "terminal.ansi.bright_green": "#477a27",
+        "terminal.ansi.bright_green": "#2c5815",
         "terminal.ansi.bright_yellow": "#856a28",
         "terminal.ansi.bright_blue": "#306fb7",
         "terminal.ansi.bright_magenta": "#9050a8",
         "terminal.ansi.bright_cyan": "#287973",
-        "terminal.ansi.bright_white": "#6d6d6d"
+        "terminal.ansi.bright_white": "#201810"
       }
     }
   ]
